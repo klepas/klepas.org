@@ -1,8 +1,8 @@
         <div id="cover" class="clear">
 			<div class="index colSix floatLeft">
 				<h2>Recently in the <em>Notebook</em>&hellip;</h2>
-				{% for post in site.posts limit:3 %}
 				<ul>
+				    {% for post in site.posts limit:3 %}
 					<li>
 						<a href="{{ post.url }}" title="{{ post.title }}">
 							<span class="date">
@@ -12,8 +12,8 @@
 							<span class="title">{{ post.title }}</span>
 						</a>
 					</li>
+                    {% endfor %}
 				</ul>
-				{% endfor %}
 			</div> <!-- /.index.colSix.floatLeft -->
 			<div class="portfolio-preview colFour floatRight">
 				<h2>Recently via the <em>Portfolio</em>&hellip;</h2>
