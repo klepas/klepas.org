@@ -1,36 +1,20 @@
         <div id="cover" class="clear">
 			<div class="index colSix floatLeft">
 				<h2>Recently in the <em>Notebook</em>&hellip;</h2>
+				{% for post in site.posts limit:3 %}
 				<ul>
 					<li>
-						<a href="" title="">
+						<a href="{{ post.url }}" title="{{ post.title }}">
 							<span class="date">
-								<span class="day">26</span> 
-								<span class="month"><abbr>Dec.</abbr></span>
+								<span class="day">{{ post.date | date: '%d' }}</span> 
+								<span class="month"><abbr>{{ post.date | date: '%b' }}</abbr></span>
 							</span> 
-							<span class="title">Aesthetic Web Typography</span>
-						</a>
-					</li>
-					<li>
-						<a href="" title="">
-							<span class="date">
-								<span class="day">14</span> 
-								<span class="month"><abbr>Dec.</abbr></span>
-							</span> 
-							<span class="title">Death of type foundries: web fonts and far out this is a long post title</span>
-						</a>
-					</li>
-					<li>
-						<a href="" title="">
-							<span class="date">
-								<span class="day">7</span> 
-								<span class="month"><abbr>Nov.</abbr></span>
-							</span> 
-							<span class="title">Deathm&oslash;le <span class="amp">&amp;</span> babies wielding power tools</span>
+							<span class="title">{{ post.title }}</span>
 						</a>
 					</li>
 				</ul>
-			</div>
+				{% endfor %}
+			</div> <!-- /.index.colSix.floatLeft -->
 			<div class="portfolio-preview colFour floatRight">
 				<h2>Recently via the <em>Portfolio</em>&hellip;</h2>
 				<blockquote cite="http://twitter.com/klepas"><p>There are horizontal spacing anomalies in Georgia between Safari <span class="amp">&amp;</span> Firefox when setting custom word-spacing or letter-spacing definitions.</p></blockquote>
