@@ -1,0 +1,65 @@
+---
+layout: directory
+---
+
+<!-- 
+	Access keys:
+		H = homepage
+		S = search input field
+		L = latest article on the homepage
+		P = portfolio
+		A = about page
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:dc="http://purl.org/dc/terms/" xml:lang="en" lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="content-language" content="en" />
+	<meta name="author" content="Simon Pascal Klein" />
+	<meta name="designer" content="Simon Pascal Klein" />
+	<meta name="developer" content="Simon Pascal Klein" />
+	<meta name="description" content="Personal website and portfolio of Simon Pascal Klein, graphic and web designer, typography nutter and User Interface and Experience aficionado residing down-under in Canberra, Australia." />
+	<meta name="keywords" content="accessibility, Australia, Canberrra, concept, design, German, graphic, interface, typography, UI, usability, UX, web" />
+	<meta name="robots" content="noydir, noopd" /> <!-- Opt out of ODP -->
+	
+	<link rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.5/au/" />
+	<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/screen.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/syntax.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
+	<link rel="shortcut icon" href="/images/favicon.ico" />
+	
+	<title>{{ page.title }}</title>
+</head>
+
+<body>
+	<div id="container">
+		<div id="header" class="center">
+			<div class="logo floatLeft">
+				<img width="224" height="342" alt="Leo, the site guardian lion." src="/images/leo.png" />
+			</div>
+			<div class="hero floatRight">
+				<h1>
+					<a href="/" title="Return to homepage" tabindex="0" accesskey="H">
+						<span class="hoverline">kle</span><span class="middot">&middot;</span>p<span class="hoverline">as</span>
+					</a>
+				</h1>
+				<p class="moin">Welcome to the website of <a href="/about" title="About Simon Pascal Klein &amp; contact details" tabindex="0" accesskey="A">Simon Pascal Klein</a>: gra&shy;phic <span class="amp">&amp;</span> web design&shy;er, ramp&shy;ant typ&shy;o&shy;phile and <acronym title="User Interface">UI</acronym> a&#64257;c&shy;io&shy;nado.</p>
+				<p>Besides designing beautiful websites and functional interfaces, I love to share my passions with others. This site is my note&shy;book and port&shy;folio.</p>
+			</div>
+			<div class="skip">
+				<span>Straight to: <a href="#notebook" title="Skip straight to the latest article" tabindex="0" accesskey="L">&sect; Latest article</a> or <a href="#portfolio" title="Skip straight to the portfolio" tabindex="0" accesskey="P">&sect; Portfolio</a></span>
+			</div>
+		</div> <!-- /#header.center -->
+		<!-- Different header is going to go here -->
+		
+		{% include nav.html %}
+		{% include cover.html %}
+		{{ content }}
+		{% include footer.html %}
+	</div>
+</body>
+</html>

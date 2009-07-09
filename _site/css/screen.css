@@ -1,0 +1,597 @@
+/*	Color palette
+	
+	white, snow		-	#fff		-	main container bg;
+	black, pitch	- 	#000		- 	night sky;
+	gray, dark		-	#333		-	main body copy;
+	gray, medium	-	#666		-	secondary copy;
+	gray, light		-	#999		-	secondary copy;
+	red, dark		-	#bb0000		-	headings;
+	brown, light	-	#fbeec2		-	link hovers.
+	blue, desat.	-	#336699		-	links
+	---------------------------------------------------------*/
+
+
+/*	Reset stylehseet
+
+	The reset stylesheet can be found in the css/ folder.
+	---------------------------------------------------------*/
+
+
+/*	Generic elements and page layout
+
+	My page is 960px wide and elastic. I am divided by 11 
+	columns each spanning 64px (four times 16, the size of my 
+	body copy) with eleven 16px gutters and enlargened gutters 
+	on the far left and right to hug the container.
+	
+	My main column is 544 wide which accommodates for on 
+	average around 70 characters per line for the body copy.
+	---------------------------------------------------------*/
+
+html { overflow-y: scroll; } /* Fixes Firefox scrollbar jump */
+body {
+	background: #ebebeb url(/images/bg.png) repeat;
+	text-align: center; /* For IE centering. */
+	font-family: Georgia, "DejaVu Serif", Times, "Times New Roman", serif;
+	font-size: 62.5%; /* Resets UA 16px common default such that 1em = 10px. Kudos to Richard Rutter. */
+	line-height: 1.5; /* We can use unitless numbers here; they act as multiples of the font-size. */
+	color: #111;
+	}
+	
+div#container {
+	margin: 0 auto 0 auto;
+	padding: 4.8em 0 4.8em 0;
+	background-color: white;
+	border-top: #666 0.8em solid;
+	text-align: left;
+	width: 96em; /* 960 minus the gutters (48 on each side). */
+	/* Box shadowing that provides a nice page shadow; experimental shiny stuff. */
+	box-shadow: 0 0 4em #ccc;
+	-webkit-box-shadow: 0 0 4em #ccc;
+	-moz-box-shadow: 0 0 4em #ccc;
+	}
+	h2 { font-size: 3.2em; color: #666; margin-bottom: 0.5em; /* 16 */ }
+	h3, div#footer h2 { font-size: 2.4em; color: #bb0000; margin: 0.666em 0; /* 16 */ }
+	h4 { font-size: 1.8em; color: #111; margin: 0.888em 0; /* 16 */ }
+	h5 { font-size: 1.4em; font-weight: bold; color: #111; margin: 1.142em 0; /* 16 */ }
+	p { font-size: 1.6em; padding: 0; text-align: justify; }
+	a, a:hover, a:active, a:focus { text-decoration: none; }
+	a { color: #336699; }
+		a:hover, a:active, a:focus {
+			color: #111;
+			border-bottom: 1px solid #999;
+			background-color: #fbeec2;
+			}
+	a.internal { color: #666; }
+		a.internal:hover, a.internal:active, a.internal:focus { color: #111; }
+	abbr, acronym, .caps {
+		font-style: normal;
+        letter-spacing: 0.062em; /* 1; Calculated for the copy at 16 */
+        text-transform: lowercase;
+		font-variant: small-caps;
+		}
+	input[type=submit], label, select, .pointer { cursor: pointer; }
+
+
+/*	Grouped and handy elements
+
+	Just to save some space, I'm going to group some styling.
+	---------------------------------------------------------*/	
+
+	/* This is our 464 sidebar */
+	div.hero, div.sidebar {
+		width: 46.4em; /* 464 */
+		display: block;
+		}
+		
+	/* Content dividers */
+	 div#nav, div#notebook, div#footer {
+		padding: 2.4em 0; /* div#footer is redefined below */ 
+		}
+	div#nav, div#cover { padding-left: 4.8em; padding-right: 4.8em; }
+	div.center	{
+		margin: 0 4.8em 0 4.8em;
+		width: 86.4em; /* 960 minus the gutters (48 on each side). */
+		}
+
+	/* Miscellaneous */
+	.floatLeft {
+		float: left;
+		display: block;
+		}
+	.floatRight {
+		float: right;
+		display: block
+		}
+	.clear { clear: both; }
+	.block { display: block; }
+	.inline { display: inline; }
+	.colOne { width: 6.4em; }
+	.colTwo { width: 14.4em; }
+	.colThree { width: 22.4em; }
+	.colFour { width: 30.4em; }
+	.colFive { width: 38.4em; }
+	.colSix { width: 46.4em; }
+	.colSeven { width: 54.4em; }
+	.colEight { width: 62.4em; }
+	.colNine { width: 70.4em; }
+
+
+/*	Header elements
+	---------------------------------------------------------*/
+
+	div.logo { width: 30.4em; padding-bottom: 4.8em; }
+		div.logo img {
+			width: 22.4em;
+			height: 34.2em;
+			padding: 0 4em 0 4em;
+			}
+	h1 {
+		position: relative;
+		text-align: left;
+		line-height: 1;
+		font-size: 6.4em;
+		font-weight: normal;
+		font-style: normal;
+		text-transform: lowercase;
+		margin-bottom: 0.375em; /* 24 */
+		letter-spacing: 0.031em; /* 2 */
+		}
+	h1, h1 a span.italic { font-style: italic; }
+		h1 a span.middot { color: #666; }
+		h1 a:hover span.hoverline { border-bottom: 1px solid #999; }
+		h1 a { color: #bb0000; }
+			h1 a:hover, h1 a:active, h1 a:focus {
+				color: #333;
+				border: none;
+				background-color: white;
+				}
+	div.hero { width: 54.4em; /* Seven columns */ padding-top: 3.6em; }
+		div.hero p.moin {
+			font-size: 2em;
+			margin-bottom: 1em;
+			letter-spacing: 0.025em; /* 0.5 */
+			word-spacing: 0.05em; /* 1 */
+			color: #111;
+			}
+			div.hero p.moin span.amp {
+				font-size: 1.05em; /* 22 */
+				line-height: 0.909; /* Back to 20 */
+				}
+		div.hero p { font-size: 1.6em; color: #333; }
+
+
+/*	Navigation elements
+
+	My navigation is split into three parts: hero, main nav. 
+	and footer nav. The hero section quick links are some 
+	skip-to anchors that should be added to make life easier. 
+	The main nav. sits below the hero area and the then final 
+	nav. is in the footer.
+	
+	Styling listed in order of appearance.
+	---------------------------------------------------------*/
+
+	div.skip span {
+		font-size: 1.6em;
+		float: right;
+		padding-top: 3em; /* 48 */
+		color: #666;
+		letter-spacing: 0.031em; /* 0.5 */
+		word-spacing: 0.062em; /* 1 */
+		}
+	div#nav { background-color: #333; color: white; border-top: 1px solid #999; }
+		ul.nav-footer li { padding-bottom: 0.363em; /* 8 */ }
+		ul.nav li {
+			float: left;
+			font-size: 2.2em;
+			padding-right: 1.909em; /* 44 */
+			letter-spacing: 0.045em; /* 1 */
+			}
+			ul.nav li a { display: block; color: #999; }
+			ul.nav-header li a {
+				display: block;
+				color: #999;
+				text-shadow: 1px 1px 1px #222;
+				}
+			ul.nav-footer li a {
+				}
+				ul.nav li a:hover { border: none; }
+				ul.nav-footer li a:hover {
+					background-color: white;
+					color: #333;
+					}
+				ul.nav-header li a:hover {
+					color: #ff8000;
+					background-color: #333;
+					}
+			ul.nav li span.amp { font-size: 0.954em; /* 21 */ }
+	input {
+		font-size: 1.6em;
+		padding: 0.25em; /* 4 */
+		font-family: Georgia, "Bitstream Vera Serif", Times, "Times New Roman", serif;
+		}
+		input#s { margin-right: 0.5em; /* 8 */ }
+
+
+/*	Cover elements
+	---------------------------------------------------------*/
+
+	div#cover {
+		padding-top: 3.2em;
+		padding-bottom: 4.8em;
+		background-color: #e8dcb1;
+		border-bottom: 1px solid #c4ba92;
+		border-top: 1px solid #c4ba92;
+		}
+		div.index h2, div.portfolio-preview h2 {
+			font-size: 1.4em;
+			padding-bottom: 1.142em; /* 16 */
+			text-shadow: 1px 1px 1px white;
+			margin: 0;
+			}
+		div.index h2 { border-bottom: 1px dotted white; }
+		div.index ul { position: relative; }
+		div.index li { font-size: 1.6em; border-bottom: 1px dotted white; }
+			div.index li a { padding: 1em 0; display: block; color: #555; }
+				div.index li a:hover { border: none; color: #222; background-color: #fbeec2; }
+		span.day { color: #bb0000; }
+		div.index span.day {
+			width: 2em;
+			text-align: right;
+			position: absolute;
+			left: 0;
+			text-shadow: 1px 1px 1px white;
+			}
+		span.month { color: #777; } 
+		div.index span.month {
+			text-align: left;
+			position: absolute;
+			left: 3em;
+			text-shadow: 1px 1px 1px white;
+			}
+		div.index span.title {
+			position: relative;
+			left: 7.5em;
+			width: 19em; /* 304; 4 columns */
+			display: block;
+			}
+			div.portfolio-preview blockquote p {
+				font-style: normal;
+				font-size: 1.4em;
+				text-indent: -0.857em; /* 20 */
+				text-align: left;
+				}
+				div.portfolio-preview blockquote p:before { content: "\00BB \0020"; }
+
+
+/*	Notebook
+	---------------------------------------------------------*/
+
+	div#notebook { padding-top: 3.2em; }
+		div#notebook div.page-nav-top { padding-bottom: 4.8em; }
+		div#notebook span.page-nav-item {
+			font-size: 1.4em;
+			font-style: italic;
+			}
+		div#notebook div.page-nav-bottom {
+			padding-top: 2.4em;
+			margin: 2.4em 0 4.8em 0;
+			}
+		div#notebook h2 {
+			margin-left: -3.75em; /* 120 */
+			border-bottom: 1px solid #ccc;
+			padding: 1em 0;
+			width: 27em;
+			}
+		div#notebook h2, div.page-meta, div#notebook div.page-nav-bottom {
+			border-top: 1px solid #ccc; }
+			div#notebook h2 a:hover { background-color: white; border: none; }
+			div#notebook h2 span.tagline {
+				font-size: 0.562em; /* 18 */
+				font-style: italic;
+				color: #666;
+				display: block;
+				margin-left: 5.62em;
+				padding: 0.5em 0;
+				}
+			div#notebook span.date {
+				width: 11.1em;
+				display: block;
+				font-size: 1.6em;
+				margin: -1.9em 0 2em -0.5em;
+				background-color: white;
+				/*	Different metrics due to the width being
+					calculated differently in FF due to lack 
+					of small-caps.
+				*/
+				padding: 0 0.2em 0 0.5em;
+				}
+				div#notebook span.date span.month { color: #111; }
+				div#notebook span.date span.year { color: #999; }
+				div#notebook span.date span.published {
+					font-size: 0.875em;
+					color: #666;
+					}
+				div#notebook div.meta {
+					margin: 2em 0;
+					padding-top: 0.5em;
+					width: 38.4em;
+					border-top: 0.2em solid #ccc;
+					}
+					div#notebook div.meta span {
+						font-size: 1.4em;
+						color: #333;
+						display: block;
+						}
+		div.entry-content { margin: 0 auto; }
+		div.entry-content span.date + p {
+			font-size: 1.8em; /* 18 */
+			float: right;
+			margin-bottom: 0.444em; /* 8 */
+			text-indent: 0;
+			display: block;
+			}
+			div.entry-content span.date + p:first-letter {
+				margin-left: -1.071em; /* We have 120 of space */
+				margin-right: 100%;
+				margin-bottom: -0.894em;
+				font-size: 6.222em; /* 112 */
+				padding-right: 0.071em; /* 8 */
+				line-height: 0.9; /* Aligns to cap-height of para. */
+				color: #bb0000;
+				text-align: right;
+				float: right;
+				}
+			div.entry-content span.date + p:first-line {
+				font-variant: small-caps;
+				letter-spacing: 0.06em; /* 2 */
+				}
+			/* Pilcrow as a paragraph marker. */
+			/* div.entry-content p:before { content: "\00B6 \0020"; } */
+			div.entry-content p { margin-bottom: 0.25em; text-indent: 1.8em; }
+			div.entry-content ul, div.entry-content ol { margin: 1em 0; }
+			div.entry-content ul, ol { font-size: 1.6em; padding: 0; }
+			div.entry-content ul { list-style: circle; }
+			div.entry-content ol { list-style: lower-roman; }
+			div.entry-content li { margin-bottom: 0.25em; }
+			div.entry-content blockquote { margin: 1em 2.8em; color: #444; }
+			div.entry-content blockquote p { text-indent: 0; }
+			div.entry-content a { color: #336699; }
+				div.entry-content a:hover, a:active, a:focus { color: #111; }
+				div.entry-content a:visited { color: #666; }
+					div.entry-content a:visited:hover { color: #111; }
+
+
+	/*	Portfolio
+	---------------------------------------------------------*/
+
+div#portfolio { border-top: 0.8em solid #333; padding-top: 1px; }
+	div.portheader { width: 86.4em; background: #444; padding: 1em 0; }
+	div#portfolio h2 { 
+		font-size: 1.4em;
+		font-variant: small-caps;
+		text-transform: lowercase;
+		color: #999;
+		background-color: #444;
+		display: inline;
+		padding-left: 0.714em; /* 10 */
+		}
+	div#portfolio h3 {
+		font-size: 1.6em;
+		font-style: italic;
+		color: white;
+		background: #444;
+		margin-bottom: 0;
+		display: inline;
+		padding-left: 0.5em; /* 8 */
+		}
+		div#portfolio img { padding: 1px 0; margin: 0; float: left; }
+	div.controllers {
+		position: relative;
+		background: #444;
+		color: white;
+		height: 4.2em;
+		margin-bottom: 1px; 
+		}
+		div.controllers a { color: white; }
+			div.controllers a:hover, div.controllers a:active, div.controllers a:focus {
+				color: #66ccff;
+				background-color: #444;
+				border: none;
+				}
+		span.prev, span.next, span.info { position: absolute; }
+		span.prev, span.next {
+			font-variant: small-caps;
+			font-size: 1.4em;
+			padding: 0.714em; /* 10 */
+			background: #444;
+			color: white;
+			letter-spacing: 0.071em; /* 1 */
+			}
+			span.next { right: 0; }
+		span.info {
+			font-size: 2.8em;
+			font-style: italic;
+			left: 15em;
+			}
+
+
+	/*	Footer
+	---------------------------------------------------------*/
+
+	div#footer { border-top: 0.8em solid #333; padding-top: 0.8em; height: 30.4em; }
+		span.backtop { font-size: 1.4em; margin-top: 0.571em; /* 8 */ }
+		div.page-meta { padding-top: 4.8em; }
+		div.type-folly {
+			font-size: 1.6em; /* 16 */
+			text-align: left;
+			position: relative;
+			line-height: 1;
+			float: left;
+			}
+			div.type-folly em { font-size: 2em; color: #333; }
+				/* set */
+				div.type-folly em span {
+					font-size: 0.75em; /* 24 */
+					position: absolute;
+					top: 1.083em; /* 26 */
+					left: 2.083em; /* 50 */
+					color: #333;
+					}
+					/* with */
+					div.type-folly em span span {
+						font-size: 0.666em; /* 16 */
+						font-weight: bold;
+						position: absolute;
+						top: 0;
+						left: 2.25em; /* 36 */
+						color: #333;
+						}
+						/* love */
+						div.type-folly em span span span {
+							font-size: 3em; /* 48 */
+							position: absolute;
+							top: 0.333em; /* 16 */
+							left: -1.374em; /* -66 */
+							z-index: 0;
+							color: #bb0000;
+							}
+							/* opening curly bracket */
+							div.type-folly em span span span span {
+								font-style: normal;
+								font-weight: normal;
+								font-size: 0.583em; /* 28 */
+								position: absolute;
+								z-index: 1;
+								top: 0.5em; /* 14 */
+								left: 4.142em; /* 116 */
+								color: #999;
+								}
+								/* heart */
+								div.type-folly em span span span span span {
+									font-style: normal;
+									font-family: "Kozuka Gothic Pro", sans-serif;
+									font-size: 1.142em; /* 32 */
+									position: absolute;
+									top: 0;
+									left: 0.437em; /* 14 */
+									color: #e17071; /* love-heart red :) */
+									}
+									/* closing curly bracket */
+									div.type-folly em span span span span span span {
+										font-size: 0.875em; /* 28 */
+										font-family: Georgia, "DejaVu Serif", Times, "Times New Roman", serif;
+										position: absolute;
+										color: #999;
+										top: 0;
+										left: 1.214em; /* 34 */
+										}
+					/* in */
+					div.type-folly strong {
+						font-weight: normal;
+						font-style: italic;
+						font-size: 1.125em; /* 18 */
+						position: absolute;
+						color: #333;
+						top: 4.888em; /* 88 */
+						left: 0.444em; /* 4 */
+						}
+						/* Georgia */
+						div.type-folly strong span {
+							position: absolute;
+							font-size: 3.111em; /* 56 */
+							top: -0.107em; /* 6 */
+							left: 0.428em; /* 24 */
+							color: #111;
+							}
+							/* ampersand */
+							div.type-folly strong span span {
+								font-size: 1.142em; /* 64 */
+								font-family: Palatino, "Minion Pro", Baskerville, Times, "Times New Roman", Georgia, serif;
+								position: absolute;
+								top: 0.593em; /* 38 */
+								left: -0.687em; /* -44 */
+								color: #336699;
+								}
+								div.type-folly strong span span span {
+									font-size: 0.875em; /* 56 */
+									font-family: Georgia, "DejaVu Serif", Times, "Times New Roman", serif;
+									color: #111;
+									position: absolute;
+									top: 0.321em; /* 18 */
+									left: 0.928em; /* 52 */
+									}
+			div.type-folly span.markup {
+				position: absolute;
+				font-size: 0.875em; /* 14 */
+				top: 14.285em; /* 200 */
+				left: 0;
+				color: #333;
+				width: 28em; /* 392 */
+				}
+		div.info { float: left; width: 48.8em; padding-right: 4.8em; }
+		div.info p, div.legal p { text-align: left; }
+		p.vcard {
+			float: left;
+			width: 30.5em; /* 488 */
+			}
+		span.index {
+			padding-top: 2px;
+			text-indent: -1.333em; /* 32 */
+			font-size: 2.6em;
+			line-height: 0.7;
+			display: block;
+			float: left;
+			}
+		div#footer p { font-size: 1.4em; color: #333; }
+		div#footer p.copyright {
+			margin-top: 2.4em;
+			}
+		div#footer h2 { margin: 1em 0 0.5em 0; }
+
+
+/*	Custom styling
+	---------------------------------------------------------*/
+	
+	span.amp {
+		font-family: Palatino, "Minion Pro", Baskerville, Times, "Times New Roman", Georgia, serif;
+		font-style: italic;
+		line-height: 1;
+		}
+	p span.amp {
+		font-size: 1.125em; /* Designed for 16 body copy; 18 */
+		line-height: 0.888; /* Bumps it back down to 16 */
+		}
+	span.u { text-decoration: underline; }
+	/* Prevents sup/sub leading distortion */
+	p sup { vertical-align: text-top; }
+	p sub { vertical-align: text-bottom; }
+	.calloutRight, .calloutLeft {
+		font-size: 2.4em;
+		color: #333;
+		text-align: left;
+		padding: 0 1em 0.25em 1em;
+		width: 12.666em; /* 304 */
+		}
+    .calloutRight { float: right; margin-right: -5.333em; /* 128 */ }
+    .calloutLeft { float: left; margin-left: -5.333em; /* 128 */ }
+    blockquote[cite]:after {
+        display: block;
+		text-align: right;
+        content: "\2014\ " attr(cite);
+        font-style: normal;
+        font-size: 1.2em;
+		}
+	pre { margin: 2em 0; overflow: auto; }
+	code {
+		font-family: Monaco, "Andale Mono", "Courier New", Courier, monospace;
+		white-space: pre;
+		}
+		div.entry-content code { font-size: 1.6em; }
+		/* CSS and markup code styling */ 
+		code.markup, code.css { color: #666; }
+		code.markup span.content { color: #ff0080; } /* hot pink */
+		code span.element { color: #4881d6; } /* light blue */
+		code span.property { color: #993300; } /* light red */
+		code span.attribute { color: #669933; } /* light green */
