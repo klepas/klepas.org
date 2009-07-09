@@ -126,6 +126,9 @@ div#container {
 			height: 34.2em;
 			padding: 0 4em 0 4em;
 			}
+    div.article-logo {
+        padding: 2.4em 0 4.8em 0;
+        }
 	h1 {
 		position: relative;
 		text-align: left;
@@ -153,6 +156,7 @@ div#container {
 			letter-spacing: 0.025em; /* 0.5 */
 			word-spacing: 0.05em; /* 1 */
 			color: #111;
+			text-align: left;
 			}
 			div.hero p.moin span.amp {
 				font-size: 1.05em; /* 22 */
