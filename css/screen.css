@@ -328,7 +328,7 @@ div#container {
 						color: #333;
 						display: block;
 						}
-		div.entry-content { margin: 0 auto; }
+		div.entry-content, div.page-content { margin: 0 auto; }
 		div.entry-content span.date + p {
 			font-size: 1.8em; /* 18 */
 			float: right;
@@ -352,19 +352,23 @@ div#container {
 				letter-spacing: 0.06em; /* 2 */
 				}
 			/* Pilcrow as a paragraph marker. */
-			/* div.entry-content p:before { content: "\00B6 \0020"; } */
-			div.entry-content p { margin-bottom: 0.25em; text-indent: 1.8em; }
-			div.entry-content ul, div.entry-content ol { margin: 1em 0; }
-			div.entry-content ul, ol { font-size: 1.6em; padding: 0; }
-			div.entry-content ul { list-style: circle; }
-			div.entry-content ol { list-style: lower-roman; }
-			div.entry-content li { margin-bottom: 0.25em; }
-			div.entry-content blockquote { margin: 1em 2.8em; color: #444; }
-			div.entry-content blockquote p { text-indent: 0; }
-			div.entry-content a { color: #336699; }
-				div.entry-content a:hover, a:active, a:focus { color: #111; }
-				div.entry-content a:visited { color: #666; }
-					div.entry-content a:visited:hover { color: #111; }
+			/* div.entry-content, div.page-content p:before { content: "\00B6 \0020"; } */
+			div.entry-content p, div.page-content p { margin-bottom: 0.25em; text-indent: 1.8em; }
+			div.entry-content ul, div.entry-content ol, div.page-content ul, div.page-content ol {
+                margin: 1em 0;
+                font-size: 1.6em;
+                padding: 0;
+                }
+			div.entry-content ul, div.page-content ul { list-style: circle; }
+			div.entry-content ol, div.page-content ol { list-style: lower-roman; }
+			div.entry-content li, div.page-content li { margin-bottom: 0.25em; }
+			div.entry-content blockquote, div.page-content blockquote { margin: 1em 2.8em; color: #444; }
+			div.entry-content blockquote p, div.page-content blockquote p { text-indent: 0; }
+			div.entry-content a, div.page-content a  { color: #336699; }
+				div.entry-content a:hover, a:active, a:focus, div.page-content a:hover,
+				div.page-content a:active, div.page-content a:focus { color: #111; }
+				div.entry-content a:visited, div.page-content a:visited { color: #666; }
+					div.entry-content a:visited:hover, div.page-content a:visited:hover { color: #111; }
 
 
 	/*	Portfolio
@@ -592,7 +596,7 @@ div#portfolio { border-top: 0.8em solid #333; padding-top: 1px; }
 		font-family: Monaco, "Andale Mono", "Courier New", Courier, monospace;
 		white-space: pre;
 		}
-		div.entry-content code { font-size: 1.6em; }
+		div.entry-content code, div.page-content code { font-size: 1.6em; }
 		/* CSS and markup code styling */ 
 		code.markup, code.css { color: #666; }
 		code.markup span.content { color: #ff0080; } /* hot pink */
