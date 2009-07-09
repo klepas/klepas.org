@@ -5,9 +5,11 @@
 					<li><a href="/#portfolio" title="Skip to the portfolio" tabindex="0">Portfolio</a></li>
 					<li><a href="/feed" title="RSS feed link" tabindex="0"><acronym title="Really Simple Syndication">RSS</acronym></a></li>
 				</ul>
-			<div class="floatRight">
-				<input id="s" name="s" class="text-input" type="text" value="" size="15" tabindex="0" accesskey="S" alt="Search entry field" />
-				<input id="searchsubmit" class="submit-button" name="searchsubmit" type="submit" value="Search" tabindex="0" alt="Search button" />
-			</div>
+			<div class="sitesearch floatRight">
+                <form method="get" action="http://www.google.com/search">
+                    <input id="s" class="text-input" type="text" value="" name="q" size="15" tabindex="0" accesskey="S" alt="Searchbox entry field" maxlength="255" value="" />
+                    <input id="searchsubmit" class="submit-button" name="searchsubmit" type="submit" value="Search" tabindex="0" alt="Search button" />
+                </form>
+            </div>
 			<div class="clear"></div>
         </div> <!-- /#nav.clear -->

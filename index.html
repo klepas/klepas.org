@@ -2,6 +2,10 @@
 layout: base
 title: Simon Pascal Klein &mdash; Graphic &amp; web design professional
 ---
+       
+        {% include header-home.html %}
+		{% include nav.html %}
+		{% include cover.html %}
         {% for post in site.posts limit:1 %}
 		<div id="notebook" class="center clear">
 			<div class="page-nav-top">
@@ -32,3 +36,4 @@ title: Simon Pascal Klein &mdash; Graphic &amp; web design professional
             </div> <!-- /.page-nav-bottom -->
         </div> <!-- /#notebook.center.clear -->
         {% endfor %}
+        {% include portfolio.html %}
