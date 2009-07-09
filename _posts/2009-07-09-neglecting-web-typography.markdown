@@ -1,5 +1,5 @@
 ---
-layout: directory
+layout: post
 title: Neglecting web typography
 ---
 
