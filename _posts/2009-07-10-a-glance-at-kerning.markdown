@@ -2,7 +2,6 @@
 layout: post
 title: A glance at kerning
 ---
-
 Oh my, new content! Hurray!
 
 Web designers however don't have this excuse and yet we've long overlooked typography in our designs. It is oft spuriously seen as a gray-haired austere discipline that limits the creativity and whose dry classical rules are boring to learn.

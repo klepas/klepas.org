@@ -2,7 +2,6 @@
 layout: post
 title: Neglecting web typography
 ---
-
 It is astounding to think that text, which still makes up most of the content on the web (perhaps not in bytes, but in quantity), is the most neglected in regards of visual appearance. We may pick a 'cool' font and colour perhaps, but before long we focus back to other things. This is perfectly natural as distributed, relatively inexpensive computing democratizes the setting of the digital word into an accessible, daily event and those who do it most care the least how their desired character is generated or how the final glyph is styled.
 
 Web designers however don't have this excuse and yet we've long overlooked typography in our designs. It is oft spuriously seen as a gray-haired austere discipline that limits the creativity and whose dry classical rules are boring to learn.

@@ -3,24 +3,23 @@ layout: base
 ---
         {% include header.html %}
 		{% include nav.html %}
-        {% for post in site.posts limit:1 %}
 		<div id="notebook" class="center clear">
 			<div class="page-nav-top">
 				<span class="page-nav-item floatLeft"><a class="internal" rel="prev"  href="#" title="">&larr; View older articles</a></span>
 				<span class="page-nav-item floatRight"><a class="internal" rel="next"  href="#" title="">View newer articles &rarr;</a></span>
             </div> <!-- /.page-nav-top -->
             <div class="entry-content colEight">
-                <h2 class="clear">{{ post.title }}</h2>
-                <span class="date" title="{{ post.date | date_to_xmlschema }}">
+                <h2 class="clear">{{ page.title }}</h2>
+                <span class="date" title="{{ page.date | date_to_xmlschema }}">
                     <span class="published">Published&thinsp;&bull;</span>
-                    <span class="day">{{ post.date | date: '%d' }}</span>
-                    <span class="month"><abbr>{{ post.date | date: '%b' }}</abbr></span>
-                    <span class="year">{{ post.date | date: '%Y' }}</span>
+                    <span class="day">{{ page.date | date: '%d' }}</span>
+                    <span class="month"><abbr>{{ page.date | date: '%b' }}</abbr></span>
+                    <span class="year">{{ page.date | date: '%Y' }}</span>
                 </span>
-                {{ post.content }}
+                {{ page.content }}
                 <div class="meta">
-                    <span class="pdf">Download a <a href="{{ post.url }}.pdf" title="Download a PDF, printer-friendly copy of this article"><acronym title="Portable Document Format">PDF</acronym>, printer-friendly version of this article</a>.</span>
-                    <span class="permalink">For referencing: <a href="{{ post.url }}" title="[Permalink] {{ post.title }}">permalink to this article</a>.</span>
+                    <span class="pdf">Download a <a href="{{ page.url }}.pdf" title="Download a PDF, printer-friendly copy of this article"><acronym title="Portable Document Format">PDF</acronym>, printer-friendly version of this article</a>.</span>
+                    <span class="permalink">For referencing: <a href="{{ page.url }}" title="[Permalink] {{ page.title }}">permalink to this article</a>.</span>
                 </div> <!-- /.meta -->
             </div> <!-- /.entry-content.colEight -->
             <div class="page-nav-bottom">
@@ -28,4 +27,3 @@ layout: base
                 <span class="page-nav-item floatRight"><a class="internal" rel="next"  href="#" title="">View newer articles &rarr;</a></span>
             </div> <!-- /.page-nav-bottom -->
         </div> <!-- /#notebook.center.clear -->
-        {% endfor %}

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Fluid identities foster progressive societies
 ---
 
@@ -20,7 +20,7 @@ What also caught my eye was a line in a later piece of reading that noted the li
 
 <blockquote cite="Connell, R. W. 2002, Gender, Polity, p. 5.">
     <p>There are whole social movements dedicated to re-establishing &#8216;the traditional family&#8217;, &#8216;true femininity&#8217; or &#8216;real masculinity&#8217;. These movements are themselves clear evidence that the boundaries they defend are none too stable. But the effort to sustain the gender categories also sustain the relations between them&thinsp;&mdash;&thinsp;and therefore sustains the inequalities they produce, and the harm they do.
-    <p>
+    </p>
 </blockquote>
 
 I love the further links that can be created between this and other struggles induced by conservative movements that in a stubborn response to newer progressive ideas aim to retain their values and control. From the top of my head: States and the human rights activists; media stakeholders, millions of teenagers, and the free culture movement; proprietary software producers and the <em>free</em> (libre) software community; and so on.
