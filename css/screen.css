@@ -359,7 +359,7 @@ div#container {
                 font-size: 1.6em;
                 padding: 0;
                 }
-            div.entry-content img { padding: 1.6em; } /* REVIEW */
+            div.entry-content img { } /* REVIEW */
             div.entry-content span.caption {
                 font-size: 1.4em;
                 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
