@@ -351,8 +351,8 @@ div#container {
 				font-variant: small-caps;
 				letter-spacing: 0.06em; /* 2 */
 				}
-			/* Pilcrow as a paragraph marker. */
-			/* div.entry-content, div.page-content p:before { content: "\00B6 \0020"; } */
+            div.entry-content p.note { text-indent: 0.5em; } /* To adjust for the hedera. */
+                div.entry-content p.note:before { content: "\2767 \0020"; color: #bb0000; }
 			div.entry-content p, div.page-content p { margin-bottom: 0.25em; text-indent: 1.8em; }
 			div.entry-content ul, div.entry-content ol, div.page-content ul, div.page-content ol {
                 margin: 1em 0;
