@@ -364,6 +364,8 @@ div#container {
                 font-size: 1.4em;
                 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
                 color: #555;
+                margin-bottom: 1em;
+                display: block;
                 }  /* REVIEW */
 			div.entry-content ul, div.page-content ul { list-style: circle; }
 			div.entry-content ol, div.page-content ol { list-style: lower-roman; }
@@ -602,7 +604,7 @@ div#portfolio { border-top: 0.8em solid #333; padding-top: 1px; }
 		font-family: Monaco, "Andale Mono", "Courier New", Courier, monospace;
 		white-space: pre;
 		}
-		div.entry-content code, div.page-content code { font-size: 1.6em; }
+		div.entry-content p code, div.page-content p code { font-size 0.875em; } /* Calculated for when in 16px paras. */
 		/* CSS and markup code styling */ 
 		code.markup, code.css { color: #666; }
 		code.markup span.content { color: #ff0080; } /* hot pink */
