@@ -50,6 +50,7 @@ div#container {
 	-webkit-box-shadow: 0 0 4em #ccc;
 	-moz-box-shadow: 0 0 4em #ccc;
 	}
+	h3, h4, h5, h6 { font-family: "Museo Sans"; }
 	h2 { font-size: 3.2em; color: #666; margin-bottom: 0.5em; /* 16 */ }
 	h3, div#footer h2 { font-size: 2.4em; color: #bb0000; margin: 0.666em 0; /* 16 */ }
 	h4 { font-size: 1.8em; color: #111; margin: 0.888em 0; /* 16 */ }
@@ -322,6 +323,7 @@ div#container {
 					padding-top: 0.5em;
 					width: 38.4em;
 					border-top: 0.2em solid #ccc;
+				    font-family: "Museo Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 					}
 					div#notebook div.meta span {
 						font-size: 1.4em;
@@ -359,14 +361,16 @@ div#container {
                 font-size: 1.6em;
                 padding: 0;
                 }
-            div.entry-content img { } /* REVIEW */
-            div.entry-content span.caption {
+            div.entry-content img { margin-bottom: 0.5em; } /* REVIEW */
+            div.entry-content p.caption {
                 font-size: 1.4em;
-                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-family: "Museo Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
                 color: #555;
-                margin-bottom: 1em;
+                margin-bottom: 0.571em; /* 0.8 in 16px */
                 display: block;
+                text-align: left;
                 }  /* REVIEW */
+            div.entry-content p code, div.page-content p code { font-size: 0.875em; }
 			div.entry-content ul, div.page-content ul { list-style: circle; }
 			div.entry-content ol, div.page-content ol { list-style: lower-roman; }
 			div.entry-content li, div.page-content li { margin-bottom: 0.25em; }
@@ -598,8 +602,10 @@ div#portfolio { border-top: 0.8em solid #333; padding-top: 1px; }
         content: "\2014\ " attr(cite);
         font-style: normal;
         font-size: 1.2em;
+        font-family: "Museo Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		}
 	pre { margin: 2em 0; overflow: auto; }
+	pre code { font-size: 1.6em; }
 	code {
 		font-family: Monaco, "Andale Mono", "Courier New", Courier, monospace;
 		white-space: pre;

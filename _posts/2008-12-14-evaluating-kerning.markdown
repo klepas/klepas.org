@@ -25,10 +25,10 @@ Besides the drooling over the aesthetics, kerning is usually the other aspect I 
 If there aren't various language specimens to check over or a specimen is lacking to begin with, ask to the supplier to throw the font(s) at a [kerning test sheet](http://www.as8.it/type/basic_kerning_text.html "Kerning and sidebearing test sheet") and see how they do. A fun and handy exercise is to go through the fonts in your collection and see how they stack up; here are some of the blatant shortcomings of Linotype AG's Times and Monotype's Times New Roman, widely distributed on Mac <abbr>OS X</abbr> and Windows respectively:
 
 <img src="/files/images/times_kerning_problems_outlined-thumb.png" alt="Times kerning problems outlined." title="Times kerning problems outlined." width="624" height="415"/>
-<span class="caption">Times kerning problems (<a href="/files/images/times_kerning_problems_outlined.png" title="Times kerning problems outlined.">view full size</a>).</span>
+<p class="caption">Times kerning problems (<a href="/files/images/times_kerning_problems_outlined.png" title="Times kerning problems outlined.">view full size</a>).</p>
 
 <img src="/files/images/times-new-roman_kerning_problems_outlined-thumb.png" alt="Times New Roman kerning problems outlined." title="Times New Roman kerning problems outlined." width="624" height="415"/>
-<span class="caption">Times New Roman kerning problems (<a href="/files/images/times-new-roman_kerning_problems_outlined.png" title="Times New Roman kerning problems outlined.">view full size</a>).</span>
+<p class="caption">Times New Roman kerning problems (<a href="/files/images/times-new-roman_kerning_problems_outlined.png" title="Times New Roman kerning problems outlined.">view full size</a>).</p>
 
 As you can see Linotype's Times has fewer kerning issues which is why I prefer listing it before and in addition to Times New Roman in my <acronym title="Cascading Style Sheets">CSS</acronym> <code><span class="property">font-family</span></code> stacks.
 
