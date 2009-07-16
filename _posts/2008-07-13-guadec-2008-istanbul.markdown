@@ -4,7 +4,7 @@ title: GUADEC 2008, Istanbul
 ---
 This marks the first journal entry from Istanbul! I've been here in Turkey for the past week attending <acronym title="GNOME users&rsquo; and developers&rsquo; European conference">GUADEC</acronym>, which for the whole part has been a blast. It's as community-focused as <acronym title="Linux.conf.au">LCA</acronym>&thinsp;&mdash;&thinsp;the largest free software conference in the southern hemisphere&thinsp;&mdash;&thinsp;and thus a whole heap of fun.
 
-<p class="note"><acronym title="GNOME users&rsquo; and developers&rsquo; European conference">GUADEC</acronym> is the premier <acronym title="GNU Network Object Model Environment">GNOME</acronym> conference, held in a different European city every year, where developers and users alike chat about <acronym title="GNU Network Object Model Environment">GNOME</acronym> and generally party a lot. <acronym title="GNU Network Object Model Environment">GNOME</acronym> is a free desktop environment built on the <a href="http://en.wikipedia.org/wiki/Gtk%2B" title="Wikipedia: GTK+">GTK+</a> toolkit.</p>
+<p class="note"><acronym title="GNOME users&rsquo; and developers&rsquo; European conference">GUADEC</acronym> is the premier <acronym title="GNU Network Object Model Environment">GNOME</acronym> conference, held in a different European city every year, where developers and users alike chat about <acronym title="GNU Network Object Model Environment">GNOME</acronym> and generally party a lot. <acronym title="GNU Network Object Model Environment">GNOME</acronym> is a free desktop environment built on the <a href="http://en.wikipedia.org/wiki/Gtk%2B" title="Wikipedia: GTK+"><abbr>GTK+</abbr></a> toolkit.</p>
 
 <h3>Highlights</h3>
 
