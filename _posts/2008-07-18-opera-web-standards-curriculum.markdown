@@ -1,0 +1,25 @@
+---
+layout: post
+title: Opera Web Standards Curriculum
+---
+Opera recently released a set of succinct educational articles on the foundation of the web, standard technologies and well-written introductions to vital web design topics, aptly titled the <a href="http://www.opera.com/wsc/" title="Opera Web Standards Curriculum website">Opera Web Standards Curriculum</a> (<acronym title="Web Standards Curriculum">WSC</acronym>).
+
+At first I asked myself why something like this was necessary in the year of 2008&thinsp;&mdash;&thinsp;don't students get taught web standards through college and univeristy these days? If not, aren't there already are number of good resources available, free and commerical? I had a bit of a read, starting right at the beginning and found partially the answer in the fifth article:
+
+<blockquote cite="Opera Web Standards Curriculum, 5: Web standards&thinsp;&mdash;&thinsp;beautiful dream, but what&rsquo;s the reality">
+<p>&hellip;The general feeling I get from looking at numerous university courses is that web languages like <acronym title="Hypertext Markup Language">HTML</acronym>, <acronym title="Cascading Style Sheets">CSS</acronym> and JavaScript are below the technical threshold of most computer science programs, and above the technical threshold of most <acronym title="Management Information Systems">MIS</acronym>/New Media programs.</p>
+
+<p>What I&rsquo;m getting at here is that many educational courses don&rsquo;t cover this kind of stuff in any great level of detail. I would be willing to wager that if you ask 10 developers that work with web standards where they learned how to use web standards that 9 of them would reply that they are self-taught (the other 1 won&rsquo;t answer you because she&rsquo;s too busy trying to get her site to render properly in <acronym title="Internet Explorer">IE</acronym>6).</p>
+</blockquote>
+
+My experience echoes this. I started an IT course in college that focused on publishing content onto web-based mediums in early 2006. I was told we would not touch <acronym title="Cascading Style Sheets">CSS</acronym> until the end of the second year, and mention of web standards was not to found in the entire curriculum document. I promptly left the course. As Jonathan Lane points out, most standards-based web designers and developers are probably self-taught&thinsp;&mdash;&thinsp;I am.
+
+But why another set of articles ontop of the many resources that already exist? Because commonly it's scattered across the Internet or because you'd need to purchase books (and in the case of students, those university text books can be quite pricey). The neat thing about web design and developement is that articles like those from the <acronym title="Web Standards Curriculum">WSC</acronym> appear in the same canvas we work on and consequently offer interactive examples, and best of all are freely accessible. Books can be nice but for someone just starting with web standards beginning with the <acronym title="Web Standards Curriculum">WSC</acronym> marks a good beginning.
+
+The <acronym title="Web Standards Curriculum">WSC</acronym> doesn't go into great technical detail. Instead, it offers the background information that is often omitted from the more technical articles on developer blogs or on related publications. Something like this would have been great in place of the <acronym title="Information Technology">IT</acronym> course I entered a few years ago.
+
+Apart from being an introduction to the creation of the Internet, how it came to be what it is now and why standards are good for everyone, the <acronym title="Web Standards Curriculum">WSC</acronym> also features introductory articles on <a href="http://dev.opera.com/articles/view/6-information-architecture-planning-o/" title="Opera WSC: 6. Information Architecture&thinsp;&mdash;&thinsp;planning out a website">information architecture</a>, <a href="http://dev.opera.com/articles/view/7-what-does-a-good-web-page-need/" title="Opera WSC: 7. What does a good web page need?">accessibility, usability and content context</a>, <a href="http://dev.opera.com/articles/view/8-color-theory/" title="Opera WSC: 8. Colour theory">colour theory</a>, <a href="http://dev.opera.com/articles/view/9-building-up-a-site-wireframe/" title="Opera WSC: 9. Building up a site wireframe">wireframing</a>, <a href="http://dev.opera.com/articles/view/10-colour-schemes-and-design-mockups/" title="Opera WSC: 10. Colour schemes and design mockups">assorted mockup tips</a> and last (and best of all), an article on <a href="http://dev.opera.com/articles/view/11-typography-on-the-web/" title="Opera WSC: 11. Typography on the web">web typography</a>.
+
+The Opera <acronym title="Web Standards Curriculum">WSC</acronym> will probably be my future recommendation for newcomers to web standards, <acronym title="Hypertext Markup Language">HTML</acronym>, and the selected articles above. I would even recommend them to the experts: pick a topic you haven't dealt with in a while and make sure you're up to scratch (there are a few questions at the end of each article).
+
+Kudos to Opera.
