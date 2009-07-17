@@ -229,6 +229,10 @@ div#container {
 		border-bottom: 1px solid #c4ba92;
 		border-top: 1px solid #c4ba92;
 		}
+		div#cover.archives {
+		  font-size: 1.375em; /* 22px for 1.6em in archives page. */
+		  margin-bottom: 3.49em; /* 48 */
+		  }
 		div.index h2, div.portfolio-preview h2 {
 			font-size: 1.4em;
 			padding-bottom: 1.142em; /* 16 */
@@ -260,6 +264,8 @@ div#container {
 			left: 7.5em;
 			width: 19em; /* 304; 4 columns */
 			display: block;
+			text-shadow: 1px 1px 1px white;
+			color: #333;
 			}
 			div.portfolio-preview blockquote p {
 				font-style: normal;

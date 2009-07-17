@@ -1,0 +1,25 @@
+---
+title: Notebook archives&thinsp;&mdash;&thinsp;Simon Pascal Klein&thinsp;&mdash;&thinsp;Graphic &amp; web design professional 
+layout: base
+---
+        {% include header-home.html %}
+		{% include nav.html %}
+		<div id="cover" class="clear archives">
+			<div class="index">
+				<h2><em>Notebook archives</em>&hellip;</h2>
+				<ul>
+				    {% for post in site.posts %}
+					<li>
+						<a href="{{ post.url }}/#notebook" title="{{ post.title }}">
+							<span class="date">
+								<span class="day">{{ post.date | date: '%d' }}</span> 
+								<span class="month"><abbr>{{ post.date | date: '%b' }}</abbr></span>
+							</span>
+							<span class="title">{{ post.title }}</span>
+						</a>
+					</li>
+                    {% endfor %}
+				</ul>
+			</div> <!-- /.index -->
+			<div class="clear"></div>
+		</div> <!-- /#cover.clear -->
