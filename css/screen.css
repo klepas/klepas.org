@@ -63,7 +63,10 @@ div#container {
 			border-bottom: 1px solid #999;
 			background-color: #fbeec2;
 			}
-	a.internal { color: #666; }
+	a.internal {
+        color: #666;
+        font-family: "Museo Sans", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif;
+        }
 		a.internal:hover, a.internal:active, a.internal:focus { color: #111; }
 	abbr, acronym, .caps {
 		font-style: normal;
@@ -274,6 +277,11 @@ div#container {
 			color: #333;
 			}
 			div#cover.archives div.index span.title { left: 10.5em; width: 23em; }
+        div#cover a.internal {
+            margin-top: 1em;
+            font-size: 0.875em;
+            }
+            div#cover a.internal:hover { border-bottom: none; background-color: transparent; }
 			div.portfolio-preview blockquote p {
 				font-style: normal;
 				font-size: 1.4em;
