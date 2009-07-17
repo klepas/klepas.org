@@ -259,6 +259,12 @@ div#container {
 			left: 3em;
 			text-shadow: 1px 1px 1px white;
 			}
+        div.index span.year {
+            text-align: left;
+            position: absolute;
+            left: 5.5em;
+            text-shadow: 1px 1px 1px white;
+            }
 		div.index span.title {
 			position: relative;
 			left: 7.5em;
@@ -267,6 +273,7 @@ div#container {
 			text-shadow: 1px 1px 1px white;
 			color: #333;
 			}
+			div#cover.archives div.index span.title { left: 10.5em; }
 			div.portfolio-preview blockquote p {
 				font-style: normal;
 				font-size: 1.4em;
