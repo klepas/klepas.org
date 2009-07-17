@@ -41,4 +41,4 @@ I discussed the re-licensing briefly with <a href="http://andy.brisgeek.com/" ti
 </blockquote>
 
 ### Tango's future
-Jakub has emailed all the other contributors of the Tango icon theme requesting their response regarding the re-license, and thus far everyone seems in agreement with Jakub's and Rodney's proposal. So, look forward to a public domain Tango assets library and <em>TangoNG</em>&thinsp;&mdash;&thinsp;a "next generation" Tango icon theme, better than the first!
+Jakub has emailed all the other contributors of the Tango icon theme requesting their response regarding the re-license, and thus far everyone seems in agreement with Jakub's and Rodney's proposal. So, look forward to a public domain Tango assets library and <em>TangoNG</em>, a "next generation" Tango icon theme.
