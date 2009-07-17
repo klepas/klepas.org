@@ -273,7 +273,7 @@ div#container {
 			text-shadow: 1px 1px 1px white;
 			color: #333;
 			}
-			div#cover.archives div.index span.title { left: 10.5em; }
+			div#cover.archives div.index span.title { left: 10.5em; width: 23em; }
 			div.portfolio-preview blockquote p {
 				font-style: normal;
 				font-size: 1.4em;
