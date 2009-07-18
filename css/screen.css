@@ -398,6 +398,11 @@ div#container {
             div.entry-content p code, div.page-content p code { font-size: 0.875em; }
 			div.entry-content ul, div.page-content ul { list-style: circle; }
 			div.entry-content ol, div.page-content ol { list-style: lower-roman; }
+			div.entry-content ol.references, div.entry-ul.references, div.page-content ol.references,
+			div.page-ul.references { list-style: none; font-size: 1.4em; }
+			div.entry-content ol.references li, div.entry-content ul.references li,
+			div.page-content ol.references li, div.page-content ul.references li {
+                margin-bottom: 0.75em; }
 			div.entry-content li, div.page-content li { margin-bottom: 0.25em; }
 			div.entry-content blockquote, div.page-content blockquote { margin: 1em 2.8em; color: #444; }
 			div.entry-content blockquote p, div.page-content blockquote p { text-indent: 0; }
