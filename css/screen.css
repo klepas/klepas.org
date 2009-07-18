@@ -37,6 +37,17 @@ body {
 	line-height: 1.5; /* We can use unitless numbers here; they act as multiples of the font-size. */
 	color: #111;
 	}
+@font-face {
+    font-family: "Museo Sans Regular";
+    src: local("Museo Sansy"),
+         url(/fonts/MuseoSans_500.otf) format("opentype");
+    }
+@font-face {
+    font-family: "Museo Sans Regular Italic";
+    src: local("Museo Sansy"),
+         url(/fonts/MuseoSans_500_Italic.otf) format("opentype");
+    font-style: italic;
+    }
 	
 div#container {
 	margin: 0 auto 0 auto;
@@ -50,7 +61,7 @@ div#container {
 	-webkit-box-shadow: 0 0 4em #ccc;
 	-moz-box-shadow: 0 0 4em #ccc;
 	}
-	h3, h4, h5, h6 { font-family: "Museo Sans", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif; }
+	h3, h4, h5, h6 { font-family: "Museo Sans Regular", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif; }
 	h2 { font-size: 3.2em; color: #666; margin-bottom: 0.5em; /* 16 */ }
 	h3, div#footer h2 { font-size: 2.4em; color: #bb0000; margin: 0.666em 0; /* 16 */ }
 	h4 { font-size: 1.8em; color: #111; margin: 0.888em 0; /* 16 */ }
@@ -65,7 +76,7 @@ div#container {
 			}
 	a.internal {
         color: #666;
-        font-family: "Museo Sans", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif;
+        font-family: "Museo Sans Regular", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif;
         }
 		a.internal:hover, a.internal:active, a.internal:focus { color: #111; }
 	abbr, acronym, .caps {
@@ -296,10 +307,7 @@ div#container {
 
 	div#notebook { padding-top: 3.2em; }
 		div#notebook div.page-nav-top { padding-bottom: 4.8em; }
-		div#notebook span.page-nav-item {
-			font-size: 1.4em;
-			font-style: italic;
-			}
+		div#notebook span.page-nav-item { font-size: 1.4em;	}
 		div#notebook div.page-nav-bottom {
 			padding-top: 2.4em;
 			margin: 2.4em 0 4.8em 0;
@@ -344,7 +352,7 @@ div#container {
 					padding-top: 0.5em;
 					width: 38.4em;
 					border-top: 0.2em solid #ccc;
-				    font-family: "Museo Sans", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif;
+				    font-family: "Museo Sans Regular", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif;
 					}
 					div#notebook div.meta span {
 						font-size: 1.4em;
@@ -389,7 +397,7 @@ div#container {
             div.entry-content img { margin-bottom: 0.5em; } /* REVIEW */
             div.entry-content p.caption {
                 font-size: 1.4em;
-                font-family: "Museo Sans", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif;
+                font-family: "Museo Sans Regular", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif;
                 color: #555;
                 margin-bottom: 0.571em; /* 0.8 in 16px */
                 display: block;
@@ -566,7 +574,7 @@ div#portfolio { border-top: 0.8em solid #333; padding-top: 1px; }
 								}
 								div.type-folly strong span span span {
 									font-size: 0.875em; /* 56 */
-									font-family: "Museo Sans", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif;
+									font-family: "Museo Sans Regular", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif;
 									color: #111;
 									position: absolute;
 									top: 0.321em; /* 18 */
@@ -632,7 +640,7 @@ div#portfolio { border-top: 0.8em solid #333; padding-top: 1px; }
         content: "\2014\ " attr(cite);
         font-style: normal;
         font-size: 1.2em;
-        font-family: "Museo Sans", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif;
+        font-family: "Museo Sans Regular", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif;
 		}
 	pre { margin: 2em 0; overflow: auto; }
 	pre code { font-size: 1.6em; }
