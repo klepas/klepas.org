@@ -24,5 +24,5 @@ The font also takes advantage of OpenType ligature features:
 
 <p class="note">Supported languages include Albanian, Basque, Catalan, Cornish, Danish, Dutch, English, Estonian, Faroese, Finnish, French, Galician, German, Greek, Icelandic, Indonesian, Irish, Italian, Malay, Manx, Norwegian Bokmål, Norwegian Nynorsk, Oromo, Portuguese, Somali, Spanish, Swahili, Swedish and Turkish.</p>
 
-<h3>Addendum</h3>
+### Addendum
 In retrospect I have to say that when setting body copy (even for only a poster) the follow-through of the cross/strikes on the f and t come to irritate reading slightly, particularly noticeable in the bold weight.
