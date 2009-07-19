@@ -3,7 +3,7 @@ layout: post
 title: Bliblia anno 1746
 ---
 
-Turning the pages of a 250-year old book has a uniqueness to it that makes it quite different to flipping through what normally sits on my bedside table. Last week a friend kindly gave me the opportunity to peruse a German Lutheran bible, hand made for a Thomas CI Aussen (the A could potentially be another character) and completed in 1736.
+Turning the pages of a 250-year old book has a uniqueness to it that makes it quite different to flipping through what normally sits on my bedside table. Last week a friend kindly gave me the opportunity to peruse a German Lutheran bible, hand made for a Thomas <span class="caps">CI</span> Aussen (the A could potentially be another character) and completed in 1736.
 
 <img src="/files/images/IMG_5465.jpg" alt="Ornate metal cover proection" title="img_5465" width="624" height="415" />
 <img src="/files/images/IMG_5466.jpg" alt="Owner of the bible" title="img_5466" width="624" height="415" />
