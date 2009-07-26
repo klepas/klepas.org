@@ -442,9 +442,26 @@ div#portfolio { border-top: 0.8em solid #333; padding-top: 1px; }
 		background: #444;
 		margin-bottom: 0;
 		display: inline;
+		position: absolute;
 		padding-left: 0.5em; /* 8 */
+		font-family: Georgia, "DejaVu Serif", Times, "Times New Roman", serif;
+		left: 0;
 		}
 		div#portfolio img { padding: 1px 0; margin: 0; float: left; }
+    div#slider ul, #slider li{
+		margin:0;
+		padding:0;
+		list-style: none;
+		}
+	   div#slider, #slider li{ 
+            /* 
+                define width and height of container element and list item (slide)
+                list items must be the same size as the slider area
+            */ 
+    		width: 86.4em;
+            height: 34em;
+            overflow: hidden; 
+            }
 	div.controllers {
 		position: relative;
 		background: #444;
