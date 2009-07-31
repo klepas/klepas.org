@@ -5,7 +5,7 @@ title: Simon Pascal Klein&thinsp;&mdash;&thinsp;Graphic &amp; web design profess
         {% include header-home.html %}
 		{% include nav.html %}
 		{% include cover.html %}
-        {% for post in paginator.posts %}
+        {% for post in site.posts limit:1 %}
 		<div id="notebook" class="center clear">
 			<!-- <div class="page-nav-top">
                 {% if paginator.next_page %}
