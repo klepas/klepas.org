@@ -8,12 +8,8 @@ title: Simon Pascal Klein&thinsp;&mdash;&thinsp;Graphic &amp; web design profess
         {% for post in site.posts limit:1 %}
 		<div id="notebook" class="center clear">
 			<!-- <div class="page-nav-top">
-                {% if paginator.next_page %}
-				<span class="page-nav-item floatLeft"><a class="internal" rel="prev"  href="{{ paginator.next_page }}" title="">&larr; View older articles</a></span>
-				{% endif %}
-				{% if paginator.previous_page %}
-				<span class="page-nav-item floatRight"><a class="internal" rel="next"  href="{{ paginator.previous_page }}" title="">View newer articles &rarr;</a></span>
-                {% endif %}
+				<span class="page-nav-item floatLeft"><a class="internal" rel="prev"  href="{{ page.previous.url }}" title="View {{ page.previous.title }}">&larr; View previous article</a></span> 
+				<span class="page-nav-item floatRight"><a class="internal" rel="next"  href="{{ page.next.url }}" title="View {{ page.next.title }}">View next article &rarr;</a></span>
             </div> -->
             <div class="entry-content colEight">
                 <h2 class="clear">
@@ -34,13 +30,9 @@ title: Simon Pascal Klein&thinsp;&mdash;&thinsp;Graphic &amp; web design profess
                 </div> <!-- /.meta -->
             </div> <!-- /.entry-content.colEight -->
             <!-- <div class="page-nav-bottom">
-                {% if paginator.next_page %}
-				<span class="page-nav-item floatLeft"><a class="internal" rel="prev"  href="{{ paginator.next_page }}" title="">&larr; View older articles</a></span>
-				{% endif %}
-				{% if paginator.previous_page %}
-				<span class="page-nav-item floatRight"><a class="internal" rel="next"  href="{{ paginator.previous_page }}" title="">View newer articles &rarr;</a></span>
-                {% endif %}
-            </div>  -->
+				<span class="page-nav-item floatLeft"><a class="internal" rel="prev"  href="{{ page.previous.url }}" title="View {{ page.previous.title }}">&larr; View previous article</a></span> 
+				<span class="page-nav-item floatRight"><a class="internal" rel="next"  href="{{ page.next.url }}" title="View {{ page.next.title }}">View next article &rarr;</a></span>
+            </div> -->
         </div> <!-- /#notebook.center.clear -->
         {% endfor %}
         {% include portfolio.html %}
