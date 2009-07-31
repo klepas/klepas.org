@@ -4,10 +4,10 @@ layout: base
         {% include header.html %}
 		{% include nav.html %}
 		<div id="notebook" class="center clear">
-			<div class="page-nav-top">
+			<!-- <div class="page-nav-top">
 				<span class="page-nav-item floatLeft"><a class="internal" rel="prev"  href="#" title="">&larr; View older articles</a></span>
 				<span class="page-nav-item floatRight"><a class="internal" rel="next"  href="#" title="">View newer articles &rarr;</a></span>
-            </div> <!-- /.page-nav-top -->
+            </div> -->
             <div class="entry-content colEight">
                 <h2 class="clear">{{ page.title }}</h2>
                 <span class="date" title="{{ page.date | date_to_xmlschema }}">
@@ -22,8 +22,8 @@ layout: base
                     <span class="permalink">For referencing: <a href="{{ page.url }}" title="[Permalink] {{ page.title }}">permalink to this article</a>.</span>
                 </div> <!-- /.meta -->
             </div> <!-- /.entry-content.colEight -->
-            <div class="page-nav-bottom">
+            <!-- <div class="page-nav-bottom">
                 <span class="page-nav-item floatLeft"><a class="internal" rel="prev"  href="#" title="">&larr; View older articles</a></span>
                 <span class="page-nav-item floatRight"><a class="internal" rel="next"  href="#" title="">View newer articles &rarr;</a></span>
-            </div> <!-- /.page-nav-bottom -->
+            </div> -->
         </div> <!-- /#notebook.center.clear -->

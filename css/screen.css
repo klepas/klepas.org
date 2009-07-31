@@ -592,6 +592,7 @@ div#portfolio { border-top: 0.8em solid #333; padding-top: 1px; }
 								div.type-folly strong span span span {
 									font-size: 0.875em; /* 56 */
 									font-family: "Museo Sans Regular", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif;
+									font-style: normal;
 									color: #111;
 									position: absolute;
 									top: 0.321em; /* 18 */

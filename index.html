@@ -5,12 +5,16 @@ title: Simon Pascal Klein&thinsp;&mdash;&thinsp;Graphic &amp; web design profess
         {% include header-home.html %}
 		{% include nav.html %}
 		{% include cover.html %}
-        {% for post in site.posts limit:1 %}
+        {% for post in paginator.posts %}
 		<div id="notebook" class="center clear">
-			<div class="page-nav-top">
-				<span class="page-nav-item floatLeft"><a class="internal" rel="prev"  href="#" title="">&larr; View older articles</a></span>
-				<span class="page-nav-item floatRight"><a class="internal" rel="next"  href="#" title="">View newer articles &rarr;</a></span>
-            </div> <!-- /.page-nav-top -->
+			<!-- <div class="page-nav-top">
+                {% if paginator.next_page %}
+				<span class="page-nav-item floatLeft"><a class="internal" rel="prev"  href="{{ paginator.next_page }}" title="">&larr; View older articles</a></span>
+				{% endif %}
+				{% if paginator.previous_page %}
+				<span class="page-nav-item floatRight"><a class="internal" rel="next"  href="{{ paginator.previous_page }}" title="">View newer articles &rarr;</a></span>
+                {% endif %}
+            </div> -->
             <div class="entry-content colEight">
                 <h2 class="clear">
                     <a href="{{ post.url }}/#notebook" title="{{ post.title }}">
@@ -29,10 +33,14 @@ title: Simon Pascal Klein&thinsp;&mdash;&thinsp;Graphic &amp; web design profess
                     <span class="permalink">For referencing: <a href="{{ post.url }}" title="[Permalink] {{ post.title }}">permalink to this article</a>.</span>
                 </div> <!-- /.meta -->
             </div> <!-- /.entry-content.colEight -->
-            <div class="page-nav-bottom">
-                <span class="page-nav-item floatLeft"><a class="internal" rel="prev"  href="#" title="">&larr; View older articles</a></span>
-                <span class="page-nav-item floatRight"><a class="internal" rel="next"  href="#" title="">View newer articles &rarr;</a></span>
-            </div> <!-- /.page-nav-bottom -->
+            <!-- <div class="page-nav-bottom">
+                {% if paginator.next_page %}
+				<span class="page-nav-item floatLeft"><a class="internal" rel="prev"  href="{{ paginator.next_page }}" title="">&larr; View older articles</a></span>
+				{% endif %}
+				{% if paginator.previous_page %}
+				<span class="page-nav-item floatRight"><a class="internal" rel="next"  href="{{ paginator.previous_page }}" title="">View newer articles &rarr;</a></span>
+                {% endif %}
+            </div>  -->
         </div> <!-- /#notebook.center.clear -->
         {% endfor %}
         {% include portfolio.html %}
