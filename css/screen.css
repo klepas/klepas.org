@@ -24,7 +24,7 @@
 	body copy) with eleven 16px gutters and enlargened gutters 
 	on the far left and right to hug the container.
 	
-	My main column is 544 wide which accommodates for on 
+	My main column is 544 wide which accommodates for an 
 	average around 70 characters per line for the body copy.
 	---------------------------------------------------------*/
 
@@ -291,8 +291,9 @@ div#container {
         div#cover a.internal {
             margin-top: 1em;
             font-size: 0.875em;
+            border-bottom: 1px solid transparent;
             }
-            div#cover a.internal:hover { border-bottom: none; background-color: transparent; }
+            div#cover a.internal:hover { border-bottom: 1px solid #999; background-color: transparent; }
 			div.portfolio-preview blockquote p {
 				font-style: normal;
 				font-size: 1.4em;
@@ -382,8 +383,8 @@ div#container {
 				font-variant: small-caps;
 				letter-spacing: 0.06em; /* 2 */
 				}
-            div.entry-content p.note { text-indent: 0.5em; } /* To adjust for the hedera. */
-                div.entry-content p.note:before {
+            div.entry-content p.note, div.page-content p.note { text-indent: 0.5em; } /* To adjust for the hedera. */
+                div.entry-content p.note:before, div.page-content p.note:before {
                     content: "\2767 \0020";
                     color: #bb0000;
                     font-size: 1.25em; /* 22 */
@@ -395,7 +396,7 @@ div#container {
                 padding: 0;
                 }
             div.entry-content img { margin-bottom: 0.5em; } /* REVIEW */
-            div.entry-content p.caption {
+            div.entry-content p.caption, div.page-content p.caption {
                 font-size: 1.4em;
                 font-family: "Museo Sans Regular", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif;
                 color: #555;
@@ -583,7 +584,7 @@ div#portfolio { border-top: 0.8em solid #333; padding-top: 1px; }
 							/* ampersand */
 							div.type-folly strong span span {
 								font-size: 1.142em; /* 64 */
-								font-family: Palatino, "Minion Pro", Baskerville, Times, "Times New Roman", Georgia, serif;
+								font-family: "Palatino Linotype", Palatino, Baskerville, Times, "Times New Roman", Georgia, serif;
 								position: absolute;
 								top: 0.593em; /* 38 */
 								left: -0.687em; /* -44 */
@@ -631,7 +632,7 @@ div#portfolio { border-top: 0.8em solid #333; padding-top: 1px; }
 	---------------------------------------------------------*/
 	
 	span.amp {
-		font-family: Palatino, "Minion Pro", Baskerville, Times, "Times New Roman", Georgia, serif;
+		font-family: "Palatino Linotype", Palatino, Baskerville, Times, "Times New Roman", Georgia, serif;
 		font-style: italic;
 		line-height: 1;
 		}
