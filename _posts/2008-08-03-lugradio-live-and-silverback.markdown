@@ -3,7 +3,7 @@ layout: post
 title: LugRadio Live and Silverback
 ---
 <h3>LugRadio Live</h3>
-<p class="note"><a href="http://lugradio.org/" titled="LugRadio website">LugRadio</a> was the premier open source/free software podcast featuring the Internet&rsquo;s Jono Bacon, famous web developer Stuart &lsquo;Aq&rsquo; Langridge, and sysadmins Adam Sweet and Chris Proctor. The second season ended with a weekend live recording and conference, &lsquo;LugRadio Live&rsquo;, in Wolverhampton,  <acronym title="United Kingdom">UK</acronym>.</p>
+<p class="note"><a href="http://lugradio.org/" title="LugRadio website">LugRadio</a> was the premier open source/free software podcast featuring the Internet&rsquo;s Jono Bacon, famous web developer Stuart &lsquo;Aq&rsquo; Langridge, and sysadmins Adam Sweet and Chris Proctor. The second season ended with a weekend live recording and conference, &lsquo;LugRadio Live&rsquo;, in Wolverhampton,  <acronym title="United Kingdom">UK</acronym>.</p>
 
 Following the initial announcement that LugRadio were to conclude their show at the end of season five (to the dismay of the many listeners including myself), this year's LugRadio Live (<acronym title="LugRadio Live">LRL</acronym>) in the <acronym title="United Kingdom">UK</acronym> was to be the last ever given the podcast had come to an end. It was therefore a must attend.
 
@@ -20,4 +20,4 @@ I did run into a small issue regarding licensing after my purchase: I used a fri
 
 <img src="/files/images/silverback-thumb.jpg" alt="Silverback main window" title="Silverback main window with three projects" width="624" height="391" />
 
-There are a number of reviews of Silverback&thinsp;&mdash;&thinsp;by <a href="http://mondaybynoon.com/2008/07/28/silverback-making-usability-testing-that-much-cooler/" title="Jonathan Christopher: Silverback: Making Usability Testing That Much Cooler">Jonathan Christopher</a>, <a href="http://www.flickr.com/photos/paulannett/2689029629/" title="Flickr photo of the .net magazine review">.net magazine</a>, and <a href="http://graphiceyedea.co.uk/wp/2008/07/24/silverback-no-monkey-business/" titled="graphiceyedea: Silverback&thinsp;&mdash;&thinsp;no monkey business">graphiceyedea</a>&thinsp;&mdash;&thinsp;check them out if you're unconvinced.
+There are a number of reviews of Silverback&thinsp;&mdash;&thinsp;by <a href="http://mondaybynoon.com/2008/07/28/silverback-making-usability-testing-that-much-cooler/" title="Jonathan Christopher: Silverback: Making Usability Testing That Much Cooler">Jonathan Christopher</a>, <a href="http://www.flickr.com/photos/paulannett/2689029629/" title="Flickr photo of the .net magazine review">.net magazine</a>, and <a href="http://graphiceyedea.co.uk/wp/2008/07/24/silverback-no-monkey-business/" title="graphiceyedea: Silverback&thinsp;&mdash;&thinsp;no monkey business">graphiceyedea</a>&thinsp;&mdash;&thinsp;check them out if you're unconvinced.

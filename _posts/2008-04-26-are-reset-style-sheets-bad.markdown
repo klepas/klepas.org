@@ -23,6 +23,7 @@ Removing usability through the reset sheet and neglecting to implement it by oth
 Reset style sheets aren't bad because some are all-encompassing in their definitions and this certainly shouldn't be a case for never using them. Ultimately the number of definitions in a reset style sheet should come down to how useful each is going to be in your project.
 
 I take Eric Meyer's position on this whereby we should use the tools that suit us best:
+
 <blockquote cite="Eric Meyer">
     <p>The key here [&hellip;] is that you evaluate various tools by thinking about how they relate to the ways you do what you do&thinsp;&mdash;&thinsp;and then choose what tools to use, and how, and when. That&rsquo;s the mark of someone who thinks seriously about their craft and strives to do it better.</p>
 </blockquote>
