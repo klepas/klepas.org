@@ -3,7 +3,7 @@ layout: post
 title: Fluid identities foster progressive societies
 ---
 
-I'm undertaking an introductory course into gender studies for one my classes in my 'arts' (read humanities) degree. Largely the reading thus far has focused on the terms of the discipline and some of the waging debates, but there are a few sections that dive somewhat deeper and develop some interesting ideas.
+I am undertaking an introductory course into gender studies for one my classes in my 'arts' (read humanities) degree. Largely the reading thus far has focused on the terms of the discipline and some of the waging debates, but there are a few sections that dive somewhat deeper and develop some interesting ideas.
 
 I came across the following quote the other day on the subject of identity in a section that focused on a postmodern re-evaluation of the concept that needs to accommodate for fluidity in and evolution thereof rather than considering it a a fixed form that is created purely through socialisation. The concern was that this new definition looses its political power by a wider spread of commonalities in differing identities. It was addressed thus:
 
