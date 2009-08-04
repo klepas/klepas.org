@@ -247,12 +247,31 @@ div#container {
 		  font-size: 1.375em; /* 22px for 1.6em in archives page. */
 		  margin-bottom: 3.49em; /* 48 */
 		  }
-		div.index h2, div.portfolio-preview h2 {
+        div.index h2, div.subhero-preview h2, div.subhero-preview h3, div.index span.day, p.more,
+        div.index span.month, div.index span.year, div.index span.title, div.subhero-preview p {
+            text-shadow: 1px 1px 1px white;
+            }
+		div.index h2, div.subhero-preview h2 {
 			font-size: 1.4em;
 			padding-bottom: 1.142em; /* 16 */
-			text-shadow: 1px 1px 1px white;
 			margin: 0;
 			}
+        div.subhero-preview h3 {
+        	font-family: Georgia, "DejaVu Serif", Times, "Times New Roman", serif;
+            font-size: 1.6em;
+            color: #777;
+            margin-top: 1em;
+            }
+            div.subhero-preview h3 span.episode-no { color: #bb0000; }
+            div.subhero-preview h3 span.episode-title { color: #333; }
+        div.subhero-preview p {
+            font-size: 1.4em;
+            font-family: "Museo Sans Regular", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif;
+            text-align: left;
+            color: #444;
+            margin-bottom: 0.5em;
+            }
+            div.subhero-preview p.more { font-size: 1.6em; }
 		div.index h2 { border-bottom: 1px dotted white; }
 		div.index ul { position: relative; }
 		div.index li { font-size: 1.6em; border-bottom: 1px dotted white; }
@@ -264,27 +283,23 @@ div#container {
 			text-align: right;
 			position: absolute;
 			left: 0;
-			text-shadow: 1px 1px 1px white;
 			}
 		span.month { color: #777; } 
 		div.index span.month {
 			text-align: left;
 			position: absolute;
 			left: 3em;
-			text-shadow: 1px 1px 1px white;
 			}
         div.index span.year {
             text-align: left;
             position: absolute;
             left: 5.5em;
-            text-shadow: 1px 1px 1px white;
             }
 		div.index span.title {
 			position: relative;
 			left: 7.5em;
 			width: 19em; /* 304; 4 columns */
 			display: block;
-			text-shadow: 1px 1px 1px white;
 			color: #333;
 			}
 			div#cover.archives div.index span.title { left: 10.5em; width: 23em; }
@@ -294,13 +309,6 @@ div#container {
             border-bottom: 1px solid transparent;
             }
             div#cover a.internal:hover { border-bottom: 1px solid #999; background-color: transparent; }
-			div.portfolio-preview blockquote p {
-				font-style: normal;
-				font-size: 1.4em;
-				text-indent: -0.857em; /* 20 */
-				text-align: left;
-				}
-				div.portfolio-preview blockquote p:before { content: "\00BB \0020"; }
 
 
 /*	Notebook
