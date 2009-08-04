@@ -230,7 +230,7 @@ div#container {
 		padding: 0.25em; /* 4 */
 		font-family: Georgia, "Bitstream Vera Serif", Times, "Times New Roman", serif;
 		}
-		input#s { margin-right: 0.5em; /* 8 */ }
+		input#search { margin-right: 0.5em; /* 8 */ }
 
 
 /*	Cover elements
@@ -676,7 +676,7 @@ div#portfolio { border-top: 0.8em solid #333; padding-top: 1px; }
 		font-family: Monaco, "Andale Mono", "Courier New", Courier, monospace;
 		white-space: pre;
 		}
-		div.entry-content p code, div.page-content p code { font-size 0.875em; } /* Calculated for when in 16px paras. */
+		div.entry-content p code, div.page-content p code { font-size: 0.875em; } /* Calculated for when in 16px paras. */
 		/* CSS and markup code styling */ 
 		code.markup, code.css { color: #666; }
 		code.markup span.content { color: #ff0080; } /* hot pink */

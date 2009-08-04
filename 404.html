@@ -16,10 +16,13 @@ title: Page not found! &mdash; Simon Pascal Klein &mdash; Graphic &amp; web desi
 				<p>If it&rsquo;s likely to be my mistake or notably you were linked here from somewhere on-site (within klepas.org) please <a ref="email" href="mailto:klepas@klepas.org" title="Email Simon Pascal Klein">give me heads up about it</a>. Alternatively please pop back to <a href="/" rel="home" title="Go back to the homepage">the homepage</a>, use the navigation below or try searching for what you&rsquo;re looking for:</p>
 				<div class="sitesearch">
                     <form method="get" action="http://www.google.com/search">
-                        <input id="s" class="text-input" type="text" value="" name="q" size="15" tabindex="0" accesskey="S" alt="Searchbox entry field" maxlength="255" value="" />
-                        <input id="searchsubmit" class="submit-button" name="searchsubmit" type="submit" value="Search" tabindex="0" alt="Search button" />
-                        <input type="checkbox" name="sitesearch" value="klepas.org" checked />   
-                            search only this site.
+                        <div>
+                            <input id="search" class="text-input" type="text" value="" name="q" size="15" tabindex="0" accesskey="S" alt="Searchbox entry field" maxlength="255" value="" />
+                            <input type="hidden" name="q" value="site:klepas.org" />
+                            <input id="searchsubmit" class="submit-button" name="searchsubmit" type="submit" value="Search" tabindex="0" alt="Search button" />
+                            <input type="checkbox" name="sitesearch" value="klepas.org" checked />   
+                                search only this site.
+                        </div>
                     </form>
                 </div> <!-- /.sitesearch -->
 			</div> <!-- /.hero.floatRight -->
