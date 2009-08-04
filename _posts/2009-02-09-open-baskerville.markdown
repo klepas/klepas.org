@@ -34,7 +34,7 @@ The <a href="https://fedorahosted.org/liberation-fonts/" title="Liberation fonts
 <p class="caption"><strong>Fig. 2.</strong> Liberation serif regular roman.</p>
 
 <h4>Gentium</h4>
-<p><a href="http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&item_id=Gentium" title="Gentium project page on SIL International">Gentium</a> is an extensive serif typeface by Victor Gaultney (fig. 3, 4) covering almost all of Latin as well as monotonic and polytonic Greek (which look just lovely). Cyrillic and the bold weight are under development. The font is licensed under the <acronym title="Summer Institute of Linguistics">SIL</acronym> <acronym title="Open Font License">OFL</acronym> and available in a variety of optimised formats, with sources available in FontForge&#8217;s native <acronym title="Spline Font Database">SFD</acronym> format.</p>
+<p><a href="http://tinyurl.com/gentium" title="Gentium project page on SIL International">Gentium</a> is an extensive serif typeface by Victor Gaultney (fig. 3, 4) covering almost all of Latin as well as monotonic and polytonic Greek (which look just lovely). Cyrillic and the bold weight are under development. The font is licensed under the <acronym title="Summer Institute of Linguistics">SIL</acronym> <acronym title="Open Font License">OFL</acronym> and available in a variety of optimised formats, with sources available in FontForge&#8217;s native <acronym title="Spline Font Database">SFD</acronym> format.</p>
 
 <img src="/files/images/gentium-roman.png" alt="Gentium regular roman example" title="Gentium regular roman example" width="624" height="124" />
 <p class="caption"><strong>Fig. 3.</strong> Gentium regular roman.</p>
