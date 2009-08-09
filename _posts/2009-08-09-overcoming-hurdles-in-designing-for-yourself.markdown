@@ -52,7 +52,7 @@ Summarising (bold his):
     <p>Thus, the differences between Redesigners and Realigners might be summarized as follows: <strong>The desire to redesign is aesthetic-driven, while the desire to realign is purpose-driven</strong>. One approach seeks merely to refresh, the other aims to fully reposition and may or may not include a full refresh. (Note that by &ldquo;reposition,&rdquo; I mean strategy and not physical location or dimensions.)</p>
 </blockquote>
 
-If you shift your mindset from throwing everything out, starting anew to adopting to changes in responsive manner according to the 'realignist' approach you can cut down on the amount of work you perceive you need to do. Rather than designing an entire new site and potentially branding, ensure a need exists in the first place before committing to a realign and determine what changes or additions are required.
+If you shift the mindset from throwing everything out and starting anew to adopting changes in responsive manner according to the 'realignist' approach you can cut down on the amount of work you perceive you need to do. Rather than designing an entire new site and potentially branding, ensure a need exists in the first place before committing to a realign and determine what changes or additions are required.
 
 #### Treat the work as a client project
 
