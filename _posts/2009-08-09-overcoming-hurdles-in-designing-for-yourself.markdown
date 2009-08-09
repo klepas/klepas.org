@@ -14,6 +14,8 @@ There were a number of things that irked me about the previous version, from the
 * my header and sidebar were fixed with static, pixel-defined heights that occasionally broke, mangling the page depending on the length of dynamic content;
 * upon wanting to make a number of quick yet sweeping changes I was frustrated with WordPress and the use of dynamic (ugly) <span class="caps">PHP</span> hooks.
 
+<p class="note">For a glimpse, see <a href="/files/images/klepas-v2.png" title="A scaled, cropped screenshot of klepas.org v2">a screenshot of version 2</a>.</p>
+
 <span class="calloutRight">All these ultimately left me with a feeling of annoyance: I felt like I could do better.</span>
 By this time also I had left my position with Looking Glass, commenced <a href="/about.html#work" title="My work, from the About section">working as a freelance web designer</a> and <a href="http://www.slideshare.net/klepas/beautiful-web-typography-5" title="Beautiful Web Typography&thinsp;&mdash;&thinsp;version 5 (updated to the most recent version)">presented a few times on the subject of typography</a>. With the points above in mind not long after I got to the point where I felt discouraged to link people to the site particularly as my new beta continued to take shape. I ceased adding new content to the site by the end of March; no new content until version 3 was live was my mantra.
 
