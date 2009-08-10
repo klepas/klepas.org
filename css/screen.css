@@ -645,6 +645,7 @@ div#portfolio { border-top: 0.8em solid #333; padding-top: 1px; }
 		font-style: italic;
 		line-height: 1;
 		}
+    h4 span.amp { font-weight: bold; }
 	p span.amp {
 		font-size: 1.125em; /* Designed for 16 body copy; 18 */
 		line-height: 0.888; /* Bumps it back down to 16 */
