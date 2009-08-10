@@ -1,7 +1,6 @@
 ---
 layout: post
 title: A critical examination of gender relations within goth subculture
-published: false
 ---
 <style>
         @font-face {
