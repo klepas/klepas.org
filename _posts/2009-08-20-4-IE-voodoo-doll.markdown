@@ -23,19 +23,21 @@ Recorded post-show, this week's 'fuck you of the week' goes to Apple for it's fa
 
 Again, for ease of reference (in order of appearance):
 
-1. [Teresa's website](http://teresawatts.com)
-2. [Teresa's <acronym title="Internet Explorer">IE</acronym> voodoo doll tutorial](http://www.chigarden.com/2007/10/tutorial-making-the-ie-voodoo-doll/)
-3. [Teresa's blog](http://www.chigarden.com)
-4. [WSG announce mailing list](http://webstandardsgroup.org/mail/), to stay up-to-date with web-related events
-5. [Nick Fink's list of user experience events (world-wide)](http://www.nickfinck.com/blog/entry/user_experience_events/)
-6. [Open Source Developers' Conference](http://www.osdc.com.au/)&thinsp;&mdash;&thinsp;Brisbane 25–27 Nov.
-7. [UX Australia](http://www.uxaustralia.com.au)&thinsp;&mdash;&thinsp;Canberra, 26–28 August (registrations still open till the day!)
-8. [AusTender gov't website](https://www.tenders.gov.au)
-9. [Australian Web Industry Association](http://www.webindustry.asn.au/)
-10. [Port 80&thinsp;&mdash;&thinsp;informal meeting of web industry folk](http://www.webindustry.asn.au/)
-11. [Moo.com&thinsp;&mdash;&thinsp;custom business cards and stationery](http://moo.com/)
-12. [bicubic.com&thinsp;&mdash;&thinsp;wholesale print service](http://bicubic.com.au/)
+<ol>
+    <li><a href="http://teresawatts.com">Teresa&rsquo;s website</a></li>
+    <li><a href="http://www.chigarden.com/2007/10/tutorial-making-the-ie-voodoo-doll/" title="Teresa&rsquo;s IE voodoo doll tutorial from her blog">Teresa&rsquo;s <acronym title="Internet Explorer">IE</acronym> voodoo doll tutorial</a></li>
+    <li><a href="http://www.chigarden.com">Teresa&rsquo;s blog</a></li>
+    <li><a href="http://webstandardsgroup.org/mail/"><acronym title="Web Standards Group">WSG</acronym> announce mailing list</a>, to stay up-to-date with web-related events</li>
+    <li><a href="http://www.nickfinck.com/blog/entry/user_experience_events/" title="Blog post by Nick Fink listing world-wide user experience events and conferences">Nick Fink&rsquo;s list of user experience events (world-wide)</a></li>
+    <li><a href="http://www.osdc.com.au/">Open Source Developers&rsquo; Conference</a>&thinsp;&mdash;&thinsp;Brisbane 25&ndash;27 Nov.</li>
+    <li><a href="http://www.uxaustralia.com.au"><acronym title="User Experience">UX</acronym> Australia</a>&thinsp;&mdash;&thinsp;Canberra, 26&ndash;28 August (registrations still open till the day!)</li>
+    <li><a href="https://www.tenders.gov.au" title="The Australian AusTender website">AusTender gov&rsquo;t website</a></li>
+    <li><a href="http://www.webindustry.asn.au/" title="The AWIA website">Australian Web Industry Association</a></li>
+    <li><a href="http://www.webindustry.asn.au/" title="Port 80 community website">Port 80</a>&thinsp;&mdash;&thinsp;informal meeting of web industry folk</li>
+    <li><a href="http://moo.com/" title="Moo.com stationery website">Moo.com</a>&thinsp;&mdash;&thinsp;custom business cards and stationery</li>
+    <li><a href="http://bicubic.com.au/" title="bicubic wholesale print service">bicubic.com</a>&thinsp;&mdash;&thinsp;wholesale print service</li>
+</ol>
 
 #### Closing notes
 
-The intro theme is the opening of track 26 of Nine Inch Nails' Ghosts III. It is licensed under a Creative Commons license and available from the [<acronym title="Nine Inch Nails">NIN</acronym> website](http://ghosts.nin.com/main/order_options) and in full on various peer-to-peer networks (legally of course given its license). The show otherwise as usual is licensed under the [Creative Commons Attribution-Noncommercial-Share Alike 2.5 Australia](http://creativecommons.org/licenses/by-nc-sa/2.5/au/) license&thinsp;&mdash;&thinsp;take, share and be merry. That's all this week. Stay tuned!
+The intro theme is the opening of track 26 of Nine Inch Nails' Ghosts III. It is licensed under a Creative Commons license and available from the [<acronym title="Nine Inch Nails">NIN</acronym> website](http://ghosts.nin.com/main/order_options) and in full on various peer-to-peer networks (legally of course given its license). The show otherwise is licensed under the [Creative Commons Attribution-Noncommercial-Share Alike 2.5 Australia](http://creativecommons.org/licenses/by-nc-sa/2.5/au/) license&thinsp;&mdash;&thinsp;take, share and be merry. That's all this week. Stay tuned!
