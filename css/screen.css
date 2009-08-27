@@ -397,7 +397,8 @@ div#container {
                     color: #bb0000;
                     font-size: 1.25em; /* 22 */
                     }
-			div.entry-content p, div.page-content p { margin-bottom: 0.25em; text-indent: 1.8em; }
+			div.entry-content p, div.page-content p { margin-bottom: 0.25em; }
+			div.entry-content p + p, div.page-content p + p { text-indent: 1.8em; }
 			div.entry-content ul, div.entry-content ol, div.page-content ul, div.page-content ol {
                 margin-bottom: 0.5em;
                 font-size: 1.6em;
