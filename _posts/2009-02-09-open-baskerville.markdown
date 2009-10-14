@@ -15,7 +15,7 @@ If you're a type designer having access to good free fonts is quite handy. For o
 
 <p>However truth be told, chances are you won&#8217;t be a type designer (type designer or not, please do keep reading!), so having the freedom to edit the font is quite useless? Well, probably, but there will be those aforementioned type designers who are bound to make corrections to the font that travel back &#8216;upstream&#8217; for you to benefit from. Provided there&#8217;s a some form of organisation (e.g. a project) edits can be coordinated and new versions of the font can be made&thinsp;&mdash;&thinsp;a process not all too dissimilar to what foundries undergo when they release updated versions of their fonts.</p>
 
-<h3>The status of free fonts</h3>
+<h3 id="status-of-free-fonts">The status of free fonts</h3>
 <p>A common question I get when giving presentations on typography is what fonts I use. It&#8217;s a mix between <em>Free</em> fonts (gratis <span class="amp">&amp;</span> libre), free-of-charge fonts, and the ones that I purchased as part of the software I use (at least for my presentations&thinsp;&mdash;&thinsp;Mac <abbr>OS&nbsp;X</abbr>). So before going on, covering what&#8217;s already available and passing well-deserved kudos to those that have made their work available is in order.</p>
 
 <h4>Linux Libertine</h4>

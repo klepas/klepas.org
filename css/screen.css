@@ -29,6 +29,21 @@
 	---------------------------------------------------------*/
 
 html { overflow-y: scroll; } /* Fixes Firefox scrollbar jump */
+
+@font-face {
+    font-family: 'Museo Sans 500 Regular';
+    src: url(fonts/MuseoSans-500.eot);
+    src: local('MuseoSans-500'), local('Museo Sans 500'),
+         url(/fonts/MuseoSans-500.otf) format('opentype');
+    }
+@font-face {
+    font-family: 'Museo Sans 500 Regular Italic';
+    src: url(fonts/MuseoSans-500-Italic.eot);
+    src: local("MuseoSans-500Italic"), local('Museo Sans 500 Italic'),
+         url(fonts/MuseoSans-500-Italic.otf) format('opentype');
+    font-style: italic;
+    }
+    
 body {
 	background: #ebebeb url(/images/bg.png) repeat;
 	text-align: center; /* For IE centering. */
@@ -37,17 +52,6 @@ body {
 	line-height: 1.5; /* We can use unitless numbers here; they act as multiples of the font-size. */
 	color: #111;
 	}
-@font-face {
-    font-family: "Museo Sans Regular";
-    src: local("Museo Sans"),
-         url(/fonts/MuseoSans_500.otf) format("opentype");
-    }
-@font-face {
-    font-family: "Museo Sans Regular Italic";
-    src: local("Museo Sans"),
-         url(/fonts/MuseoSans_500_Italic.otf) format("opentype");
-    font-style: italic;
-    }
 	
 div#container {
 	margin: 0 auto 0 auto;
@@ -61,7 +65,7 @@ div#container {
 	-webkit-box-shadow: 0 0 4em #ccc;
 	-moz-box-shadow: 0 0 4em #ccc;
 	}
-	h3, h4, h5, h6 { font-family: "Museo Sans Regular", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif; }
+	h3, h4, h5, h6 { font-family: "Museo Sans 500 Regular", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif; }
 	h2 { font-size: 3.2em; color: #666; margin-bottom: 0.5em; /* 16 */ }
 	h3, div#footer h2 { font-size: 2.4em; color: #bb0000; margin: 0.666em 0; /* 16 */ }
 	h4 { font-size: 1.8em; color: #111; margin: 0.888em 0; /* 16 */ }
@@ -76,7 +80,7 @@ div#container {
 			}
 	a.internal {
         color: #666;
-        font-family: "Museo Sans Regular", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif;
+        font-family: "Museo Sans 500 Regular", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif;
         }
 		a.internal:hover, a.internal:active, a.internal:focus { color: #111; }
 	abbr, acronym, .caps {
@@ -266,7 +270,7 @@ div#container {
             div.subhero-preview h3 span.episode-title { color: #333; }
         div.subhero-preview p {
             font-size: 1.4em;
-            font-family: "Museo Sans Regular", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif;
+            font-family: "Museo Sans 500 Regular", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif;
             text-align: left;
             color: #444;
             margin-bottom: 0.5em;
@@ -361,7 +365,7 @@ div#container {
 					padding-top: 0.5em;
 					width: 38.4em;
 					border-top: 0.2em solid #ccc;
-				    font-family: "Museo Sans Regular", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif;
+				    font-family: "Museo Sans 500 Regular", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif;
 					}
 					div#notebook div.meta span {
 						font-size: 1.4em;
@@ -407,7 +411,7 @@ div#container {
             div.entry-content img { margin-bottom: 0.5em; }
             div.entry-content p.caption, div.page-content p.caption {
                 font-size: 1.4em;
-                font-family: "Museo Sans Regular", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif;
+                font-family: "Museo Sans 500 Regular", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif;
                 color: #555;
                 margin-bottom: 0.571em; /* 0.8 in 16px */
                 display: block;
@@ -423,6 +427,13 @@ div#container {
 			div.page-content ol.references li, div.page-content ul.references li {
                 margin-bottom: 0.75em; }
 			div.entry-content li, div.page-content li { margin-bottom: 0.25em; }
+			div.entry-content dl dt, div.entry-content dl dd { margin-bottom: 1.6em; }
+			div.entry-content dl.conversation span.speaker {
+                font-size: 1.6em;
+                font-variant: small-caps;
+                color: #444;
+                display: block;
+                }
 			div.entry-content blockquote, div.page-content blockquote { margin: 1em 2.8em; color: #444; }
 			div.entry-content blockquote p, div.page-content blockquote p { text-indent: 0; }
 			div.entry-content a, div.page-content a  { color: #336699; }
@@ -602,7 +613,7 @@ div#portfolio { border-top: 0.8em solid #333; padding-top: 1px; }
 								}
 								div.type-folly strong span span span {
 									font-size: 0.875em; /* 56 */
-									font-family: "Museo Sans Regular", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif;
+									font-family: "Museo Sans 500 Regular", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif;
 									font-style: normal;
 									color: #111;
 									position: absolute;
@@ -670,7 +681,7 @@ div#portfolio { border-top: 0.8em solid #333; padding-top: 1px; }
         content: "\2014\ " attr(cite);
         font-style: normal;
         font-size: 1.2em;
-        font-family: "Museo Sans Regular", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif;
+        font-family: "Museo Sans 500 Regular", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif;
 		}
 	pre { margin: 2em 0; overflow: auto; }
 	pre code { font-size: 1.6em; }

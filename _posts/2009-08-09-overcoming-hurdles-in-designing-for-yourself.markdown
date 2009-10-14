@@ -9,7 +9,7 @@ There were a number of things that irked me about the previous version, from the
 * the new design was just, a new design&thinsp;&mdash;&thinsp;I applied it on top of the existing content without much consideration or attention to copy; 
 * the calendar to the side served more to remind me and I think others of how much I neglected putting my thoughts into digestible, attractive posts on a regular basis;
 * my columns were too compact, particularly the main body column at a width of 450 pixels and font size of 14&thinsp;&mdash;&thinsp;it felt far too much like throw-away copy from a newspaper;
-* many 'little things' bothered me, ranging from anchor (link) colours and various hovers, to the ubiquitous leafy fleuron I used to mark my dates that overall left me with a felling after a few months of 'just yet another blog';
+* many 'little things' bothered me, ranging from anchor (link) colours and various hovers, to the ubiquitous leafy fleuron I used to mark my dates that overall left me with a feeling after a few months of 'just yet another blog';
 * I couldn't easily tie in a portfolio;
 * my header and sidebar were fixed with static, pixel-defined heights that occasionally broke, mangling the page depending on the length of dynamic content;
 * upon wanting to make a number of quick yet sweeping changes I was frustrated with WordPress and the use of dynamic (ugly) <span class="caps">PHP</span> hooks.
