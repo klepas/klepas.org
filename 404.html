@@ -1,31 +1,25 @@
 ---
-layout: page
-title: Page not found! &mdash; Simon Pascal Klein &mdash; Graphic &amp; web design professional
+layout: base
+title: Page not found &mdash; Simon Pascal Klein &mdash; Graphic &amp; web design professional
 ---
-		<div id="header" class="center">
-			<div class="logo floatLeft">
-				<img width="224" height="342" alt="Leo, the site guardian lion." src="/images/leo.png" />
-			</div>
-			<div class="hero floatRight">
-				<h1>
-					<a href="/" title="Return to homepage" tabindex="0" accesskey="H">
-						<span class="hoverline">kle</span><span class="middot">&middot;</span>p<span class="hoverline">as</span>
-					</a>
-				</h1>
-				<p class="moin">Sorry, the page you&rsquo;re looking for isn&rsquo;t here; it could well have been misplaced.</p>
-				<p>If it&rsquo;s likely to be my mistake or notably you were linked here from somewhere on-site (within klepas.org) please <a ref="email" href="mailto:klepas@klepas.org" title="Email Simon Pascal Klein">give me heads up about it</a>. Alternatively please pop back to <a href="/" rel="home" title="Go back to the homepage">the homepage</a>, use the navigation below or try searching for what you&rsquo;re looking for:</p>
-				<div class="sitesearch">
+        {% include header-home.html %}
+		{% include nav.html %}
+		<div id="notebook" class="center clear">
+            <div class="page-content colEight">
+        		<h2 class="error">Page not found&thinsp;&mdash;&thinsp;404</h2>
+                <p class="moin">Sorry, the page you queried for isn&rsquo;t at this location; it could have been misplaced.</p>
+                <p class="note">If it&rsquo;s likely to be my mistake or notably you were linked here from somewhere on-site (within klepas.org) please <a ref="email" href="mailto:klepas@klepas.org" title="Email Simon Pascal Klein">give me heads up about it</a> so I can correct the error.</p>
+                <p>In the mean time please use the navigation or try searching for what you&rsquo;re after:</p>
+                <div class="sitesearch sitesearch404">
                     <!-- Google Custom Search Element -->
-                    <form action="http://www.google.com/cse" class="center_column">
-                       <fieldset>
-                       <input type="hidden" name="cx" value="012236898957532950839:9eegq1vhwts" />
-                       <input type="hidden" name="ie" value="UTF-8" />
-                       <input id="search" class="text-input" type="text" name="q" size="15" tabindex="0" accesskey="S" />
-                       <input id="searchsubmit" type="submit" name="sa" value="Search" tabindex="0" />
+                    <form action="http://www.google.com/cse" class="center_column" />
+                    <fieldset>
+                        <input type="hidden" name="cx" value="012236898957532950839:9eegq1vhwts" />
+                        <input type="hidden" name="ie" value="UTF-8" />
+                        <input id="search" class="text-input" type="text" name="q" size="35" tabindex="0" accesskey="S" />
+                        <input id="searchsubmit" type="submit" name="sa" value="Search this site" tabindex="0" />
                     </fieldset>
                 </div> <!-- /.sitesearch -->
-			</div> <!-- /.hero.floatRight -->
-		</div> <!-- /#header.center -->
-	</div> <!-- /#container -->
-</body>
-</html>
+                <p>Return to <a href="/" rel="home" title="Go back to the homepage">the homepage</a>.</p>
+            </div> <!-- /.page-content.colEight -->
+        </div> <!-- /#notebook.center.clear -->
