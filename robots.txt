@@ -1,0 +1,4 @@
+Sitemap: http://klepas.org/sitemap.xml
+ 
+User-agent: *
+Disallow: /images/

@@ -3,25 +3,25 @@ layout: nil
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% for post in site.posts %}
-  <url>
-    <loc>http://klepas.org{{ post.id }}.html</loc>
-    <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
-  </url>
-  {% endfor %}
-  <url>
-    <loc>http://klepas.org</loc>
-    <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://klepas.org/about.html</loc>
-    <lastmod>2009-11-04</lastmod>
-  </url>
-  <url>
-    <loc>http://klepa.org/archive.html</loc>
-    <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
+    {% for post in site.posts %}
+    <url>
+        <loc>http://klepas.org{{ post.id }}.html</loc>
+        <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
+    </url>
+    {% endfor %}
+    <url>
+        <loc>http://klepas.org</loc>
+        <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://klepas.org/about.html</loc>
+        <lastmod>2009-11-04</lastmod>
+    </url>
+    <url>
+        <loc>http://klepa.org/archive.html</loc>
+        <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
 </urlset>
  
