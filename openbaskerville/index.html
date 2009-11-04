@@ -1,0 +1,134 @@
+<!-- 
+	Access keys:
+		H = homepage
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta name="author" content="Simon Pascal Klein" />
+	<meta name="designer" content="Simon Pascal Klein" />
+	<meta name="developer" content="Simon Pascal Klein" />
+	<meta name="description" content="An open project to create a freely-licensed Baskerville revival." />
+	<meta name="keywords" content="typography, Baskerville, font, OFL, license, design" />
+	<meta name="robots" content="noydir, noopd" /> <!-- Opt out of ODP -->
+	
+	<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+	<link rel="shortcut icon" href="img/favicon.ico" />
+	
+	<script type="text/javascript" src="js/scriptaculous/prototype.js"></script>
+	<script type="text/javascript" src="js/scriptaculous/effects.js"></script>
+	<script type="text/javascript" src="js/scriptaculous/scriptaculous.js"></script>
+	
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-4333113-1");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+	</script>
+	
+	<title>Open Baskerville</title>
+</head>
+
+<body>
+	<div id="container">
+		<div id="moin" class="center">
+			<h1>
+				<a href="/openbaskerville" title="Return to homepage" tabindex="0" accesskey="H">
+				Open Baskerville
+				</a>
+			</h1>
+			<p class="moin">Welcome to Open Baskerville, an open source project to create a digital revival of the famous &lsquo;<a href="http://en.wikipedia.org/wiki/John_Baskerville" title="Wikipedia (English): John Baskerville">Baskerville</a>&rsquo; typefaces. To be more exact, Open Baskerville is based upon Fry&rsquo;s Baskerville, a Baskerville-inspired derivative created by Isaac Moore, a punchcutter who worked for the typefoundry of Joseph Fry. The font is dual-licensed under the <a href="http://tinyurl.com/dhkvlz" title="Open Font License">Open Font License</a> and the <a href="http://www.gnu.org/licenses/gpl-3.0.txt" title="GNU General Public License"><acronym title="GNU is not UNIX">GNU</acronym> <acronym title="General Public License">GPL</acronym> version 3</a>.</p>
+		<div class="nav">
+			<span>Skip to:</span>
+			<ul>
+				<li><a href="#why" onclick="Effect.ScrollTo('why'); return false;" title="Skip down to the why">The why</a></li>
+				<li><a href="#how" onclick="Effect.ScrollTo('how'); return false;" title="Skip down to the how">The how</a></li>
+				<li><a href="#history" onclick="Effect.ScrollTo('history'); return false;" title="Skip down to the history">The history</a></li>
+				<li><a href="#faq" onclick="Effect.ScrollTo('faq'); return false;" title="Skip down to the FAQ"><acronym title="Frequently Asked Questions">FAQ</acronym></a></li>
+			</ul>
+		</div>
+			<h2 id="why" class="floatLeft">The why</h2>
+			<span class="backtop floatRight"><a href="#container" onclick="Effect.ScrollTo('container'); return false;" title="Return to the top of this page">Back to top &uarr;</a></span>
+			<p>With the written word an absolute fundamental component of daily communication, typography and fonts have are vital to providing aesthetic harmony and legibility to our textual works. There are thousands of fonts available, of which only a small number are useful or any good for setting vast quantities of text, and of which an even smaller number are available to be freely distributed and shared. This project aims to help close that hole, beginning with a Baskerville revival.</p>
+			<h2 id="how" class="floatLeft">The how</h2>
+			<span class="backtop floatRight"><a href="#container" onclick="Effect.ScrollTo('container'); return false;" title="Return to the top of this page">Back to top &uarr;</a></span>
+			<p>The project has an <a href="http://openbaskerville.lighthouseapp.com" title="Open Baskerville issue tracker and messaging threads">issue tracker and messaging board</a>, and for ease of contribution the font source <acronym title="Unified Font Object">UFO</acronym> files are available via a <a href="http://git-scm.com/" title="Git, a distributed version control system">Git</a> repository on <a href="http://github.com/klepas/open-baskerville/" title="Open Baskerville git repository on GitHub.com">github.com</a>. To get started you&rsquo;ll want to &lsquo;fork&rsquo; a copy of the files. From there everyone can make their edits and still have their changes merged back into the main &lsquo;trunk&rsquo; of the project. The alternative is to <a href="open-baskerville.zip" title="Download a ZIP archive bundle of the font UFO source files">grab the files in a <abbr>ZIP</abbr> bundle</a>.</p>
+			<p>Please feel free to download the files and add to the font&thinsp;&mdash;&thinsp;you could add a glyph for a character that is missing or adjust the kerning for glyph combinations. To have your changes merged back into the main trunk of the project for others to benefit from please <a href="mailto:klepas@klepas.org" title="Email Simon Pascal Klein">email me</a>.</p>
+			<h3 id="using-git">Using Git</h3>
+			<p>Obtaining Git is easy, whether you&rsquo;re using <a href="http://github.com/guides/using-git-and-github-for-the-windows-for-newbies" title="GitHub.com &thinsp;&mdash;&thinsp; Guides: Using Git and Github for the Windows for newbies">Windows</a>, <a href="http://github.com/guides/get-git-on-mac" title="GitHub.com &thinsp;&mdash;&thinsp; Guides: Get git on Mac">Mac <abbr>OS X</abbr></a>, or flavours of Linux, using your favourite package manager. Once you have Git installed, sign up to GitHub. You&rsquo;ll want to fork my repository and clone it, making your changes. This allows you to make all the edits you desire and when you want to push the changes back up, you can send me a pull request for me to pull your changes up for merging. Let&rsquo;s revise:
+			<ol>
+				<li><a href="https://github.com/signup/free" title="GitHub free sign up page">Sign up to GitHub</a>.</li>
+				<li>Fork <a href="http://github.com/klepas/open-baskerville/" title="Open Baskerville git repository on GitHub.com">my repository</a>&thinsp;&mdash;&thinsp;click on the <img style="display: inline; width: 62px; margin: 0;" width="62" height="18" src="http://github.com/images/modules/repos/fork_button.png" alt="fork" /> button.</li>
+				<li>Clone the forked repository locally onto your computer (where <code>$USER</code> is your GitHub username):
+					<pre>git clone git@github.com:$USER/open-baskerville.git</pre>
+				</li>
+				<li>Make your changes to the font files.</li>
+				<li>Commit all your changes (commits all changed files). You&rsquo;ll also be prompted to add a commit message in your favourite 
+				editor to let others know what changes you&rsquo;ve made.
+					<pre>git commit -am </pre>
+				</li>
+				<li>Push to the forked repository&thinsp;&mdash;&thinsp;this would be your repository you forked from me, and here you&rsquo;ll 
+				just want to upload your changes to your repository under your name on GitHub:
+					<pre>git push</pre>
+				</li>
+				<li>Send me a pull request so I am notified of your changes and can choose to merge them in with the original repository. You can do this from your project&rsquo;s page on GitHub: simply click on the <img style="display: inline; width: 105px; margin: 0;" width="62" height="18" src="http://github.com/images/modules/repos/pull_request_button.png" alt="pull request" /> icon, fill in a brief note what glyphs you&rsquo;ve added or otherwise changes you&rsquo;ve made and who to send them to (in this case me, <em>Simon Pascal Klein</em> by the nick of <em>klepas</em>).</li>
+				<li>Finally, to ensure you have the latest version of the font files, including any changes that I have pulled from you, 
+				you&rsquo;ll want to update your branch regularly:
+					<pre>git pull</pre>
+				</li>
+			</ol>
+			<p>For more information on this workflow see the <a href="http://github.com/guides/fork-a-project-and-submit-your-modifications" title="Fork a project and submit your modifications&thinsp;&mdash;&thinsp;Guides&thinsp;&mdash;&thinsp;GitHub">GitHub guides</a>.</p>
+			<h2 id="history" class="floatLeft">The history</h2>
+			<span class="backtop floatRight"><a href="#container" onclick="Effect.ScrollTo('container'); return false;" title="Return to the top of this page">Back to top &uarr;</a></span>
+			<p>In order to be historically correct and entertain typophiles, Open Baskerville is to be a revival of a Baskervillian &lsquo;clone&rsquo; by Isaac Moore, a punchcutter who worked for the typefoundry of Joseph Fry in Bristol and later in London. It is believed that he did so because Baskerville had little financial success, never selling his types which were at their making considered vulgar in their stark contrast of the lettershapes and &lsquo;damaging to the eyes&rsquo;. Further, no other printer had the technology to accurately print with the high-contrast, sharp hairline punches at the time anyway. Fry&rsquo;s Baskerville was created as a derivative of Baskerville that could be used with the less expensive papers, presses, and the inks that were common.</p>
+			<p>Moore created a huge series of fonts in this style, complete with ornaments, a (subjectively weak) italic, and old-style figures for the text weights. The typeface was cut around 1766 and the original matrices still exist. They were purchased from the Fry foundry by Stephenson, Blake &amp; Co. in 1910 having already acquired the Fry foundry materials off the Sir Charles Reed foundry. The surviving punches and even original matrices are in the collection of the Type Museum, London and The Smithsonian National Museum of American History, though both inaccessible, the latter due to their location in a warehouse containing asbestos.</p>			
+			<p>Sadly <em>only two</em> complete original specimens exist, both in libraries that are currently inaccessible. The first, a broadside specimen printed in Bristol in 1766 is currently housed at the Providence library and the second specimen is in the Royal Library in Stockholm. A copy of the 1766 specimen was reprinted in <a href="specimens/Updike-Printing-Types_1766-FryBaskerville-scan.png" title="A low-quality scan of the original 1766 specimen as it appears in Printing Types">Updike&rsquo;s Printing Types, figure 276</a> though obtaining a high-quality scan is desireable. A contact attempt was made at the Providence with no luck whereas the cost of having a Stockholm copy digitized is presumed to be around the <acronym title="US Dollar">USD</acronym> $100 mark&thinsp;&mdash;&thinsp;this is an option worth considering. There is a very large, multi-page specimen in the Library of Congress, but it only shows the &lsquo;<q>Quosque Tandem&hellip;</q>&rsquo; quote and it cannot be photographed. Stephenson, Blake are likely to have edited and extended the typeface, as there are subtle variations and differences in the 24-, (possibly 30-,) 36- and 48-point specimens that were made in 1913 and consequently most of the accessible specimens feature them. Below are featured two extracts from two separate scans of Stephenson, Blake specimens. They are both of the Stephenson, Blake Fry&rsquo;s Baskerville, which in some sizes was produced entirely from the original matrices. In the smaller sizes the letters with descenders were replaced with shorter descenders in the twentieth century when the baselines of of metal type were standardized. (These are cropped exports; &rarr; the full-sized version with u&amp;lc characters, additional ligatures and lining figures: <a href="specimens/stephenson-blake_original_scan.jpg" title="Download the first full-sized version of the Stephenson, Blake specimen scan of the export below">one</a> and <a href="specimens/frys_baskervilleoldface.jpg" title="Download the second full-sized version of the Stephenson, Blake specimen scan of the export below">two</a> respectively.)</p>
+			<img src="specimens/stephenson-blake_original_scan_export.jpg" alt="Stephenson, Blake 1960s specimen featuring their version of Fry&rsquo;s Baskerville" />
+			<img src="specimens/frys_baskervilleoldface_export.jpg" alt="Stephenson, Blake 1960s specimen featuring their version of Fry&rsquo;s Baskerville" />
+			<p>Morris Fuller Benton revived the Moore design for <acronym title="American Type Founders">ATF</acronym> and it first appears in <a href="http://levien.com/type/atf_1923/" title="The ATF 1923 specimen over at Raph Levien&rsquo;s site">the 1923 <acronym title="American Type Founders">ATF</acronym> specimen</a> (<a href="http://casper.ghostscript.com/~raph/tmp/hrant354.jpg" title="12pt ATF scan from 1923, also from Raph Levien">also note a 12pt scan from 1923</a>), as well as later again in <a href="specimens/1934-ATF_Baskerville.zip" title="Download a zipped archive of the 1934 ATF Baskerville specimen">the 1934 <acronym title="American Type Founders">ATF</acronym> specimen</a> and in <a href="http://levien.com/type/atf_1941/p020_sm.jpg" title="Download a scan of the 1941 ATF specimen from Raph Levien&rsquo;s site">the 1941 <acronym title="American Type Founders">ATF</acronym> specimen</a>. Interestingly Benton did not choose to use Moore&rsquo;s italic, instead opting for an italic which was in fact copied from the type of Richard Austin that English Monotype later made under the name of &lsquo;Bell&rsquo; and also very similar to &lsquo;Bulmer&rsquo;. So also up for discussion is the selection of an italic; Moore&rsquo;s italic has been received poorly and as just noted, even Benton choose to replace it. We may do the same, using or basing it off an existing italic or if we&rsquo;re feeling particularly fruity, draw our own.</p>
+			<p>For further information please see <a href="http://typophile.com/node/45357" title="Old punches, new fonts, Fry&rsquo;s Baskerville">the colloquy over Fry&rsquo; Baskerville at Typophile.com</a>.</p>
+			<h2 id="faq" class="floatLeft"><acronym title="Frequently Asked Questions">FAQ</acronym></h2>
+			<span class="backtop floatRight"><a href="#container" onclick="Effect.ScrollTo('container'); return false;" title="Return to the top of this page">Back to top &uarr;</a></span>
+			<dl class="clear">
+				<dt>Where can I download the font files?</dt>
+				<dd>They&rsquo;re available via a Git repository on GitHub or as a <abbr>ZIP</abbr> archive. To download directly or fetch via 
+				Git, see <a href="#using-git" onclick="Effect.ScrollTo('using-git'); return false;" title="Scroll up to the Using Git 
+				section"><em>Using GitHub</em></a> under the <a href="#how" onclick="Effect.ScrollTo('how'); return false;" title="Scroll up to 
+				the How section"><em>How</em></a> section above.</dd>
+			</dl>
+			<dl>
+				<dt>With access to the files won&rsquo;t someone be able to spoil the pie for all of us?</dt>
+				<dd>No. All changes back into the &lsquo;trunk&rsquo; of the font have to be approved. Commit access to make changes will be given to those who have made numerous quality contributions.</dd>
+			</dl>
+			<dl>
+				<dt>What license is the font released under?</dt>
+				<dd>The Open Baskerville font is licensed under the <a href="http://tinyurl.com/dhkvlz" title="Open Font License">Open Font License</a> as well as the <a href="http://www.gnu.org/licenses/gpl-3.0.txt" title="GNU General Public License"><acronym title="GNU is not UNIX">GNU</acronym> <acronym title="General Public License">GPL</acronym> version 3</a>. The <acronym title="Open Font License">OFL</acronym> essentially means you can share, edit, and even redistribute the font so long as you don&rsquo;t sell it by itself&thinsp;&mdash;&thinsp;it may be distributed as part of a software package and even sold in this state whereas the <acronym title="General Public License">GPL</acronym> version 3 requires &lsquo;source&rsquo; font files of all derivatives to be made available. Both licenses are approved by the Free Software Foundation, and our ultimate goal is to have the font as widespread as possible, even shipping with commercial software whilst the font source files are secure to remain accessible for contribution.</dd>
+			</dl>
+			<dl>
+				<dt>I&rsquo;ve fixed something or otherwise made a change to the font, now what?</dt>
+				<dd>Great&thinsp;&mdash;&thinsp;thank you! If you&rsquo;d like it to be added to the font please <a 
+				href="mailto:klepas@klepas.org" title="Email Simon Pascal Klein">email me</a> or use GitHub to send me the changes (see 
+				<a href="#using-git" onclick="Effect.ScrollTo('using-git'); return false;" title="Scroll up to the Using Git section"><em>Using 
+				GitHub</em></a> under the <a href="#how" onclick="Effect.ScrollTo('how'); return false;" title="Scroll up to the How
+				section"><em>How</em></a> section above).</dd>
+			</dl>
+			<dl>
+				<dt>How did this all start?</dt>
+				<dd>After a lengthy discussion on a <a href="http://typophile.com/node/53444" title="A Call to all Type Designers">call for open fonts on Typophile.com</a> James Puckett kindly released some work he’d been doing on a Baskerville revival into the public domain. This is the foundation of this work. Mentions and kudos should go out to <a href="http://jpad.biz/" title="James Puckett&rsquo;s professional website">James Puckett</a> and James Mosley for the love, work, and research they&rsquo;ve both invested in this typeface.</dd>
+			</dl>
+		</div>
+		<div id="footer" class="center clear">
+			<p class="floatLeft">This page was set with love in Matthew Carter&rsquo;s <em>Georgia</em>.</p>
+			<span class="floatRight backtop"><a href="#container" onclick="Effect.ScrollTo('container'); return false;" title="Return to the top of this page">Back to top &uarr;</a></span>
+		</div>
+	</div>
+</body>
+</html>

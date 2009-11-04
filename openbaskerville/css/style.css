@@ -1,0 +1,276 @@
+/*	Color palette
+	
+	white, snow		-	#fff		-	main container bg;
+	black, pitch	- 	#000		- 	night sky;
+	gray, dark		-	#333		-	main body copy;
+	gray, medium	-	#666		-	secondary copy;
+	gray, light		-	#999		-	secondary copy;
+	red, dark		-	#bb0000		-	headings;
+	brown, light	-	#fbeec2		-	link hovers.
+	tangerine		-	#ff8000		-	skip link hover
+	---------------------------------------------------------*/
+
+
+/*	Reset stylehseet
+
+	The reset stylesheet can be found in the css/ folder.
+	---------------------------------------------------------*/
+
+
+/*	Generic elements and page layout
+
+	My page is 960px wide and elastic. I am divided by 11 
+	columns each spanning 64px (four times 16, the size of my 
+	body copy) with eleven 16px gutters and enlargened gutters 
+	on the far left and right to hug the container.
+	
+	My main column is 544 wide which accommodates for on 
+	average around 70 characters per line for the body copy.
+	---------------------------------------------------------*/
+
+body {
+	background: #ebebeb url(../img/bg.png) repeat;
+	text-align: center; /* For IE centering. */
+	font-family: Georgia, "DejaVu Serif", Times, "Times New Roman", serif;
+	font-size: 62.5%; /* Resets UA 16px common default such that 1em = 10px. Kudos to Richard Rutter. */
+	line-height: 1.5; /* We can use unitless numbers here; they are multiples of the font-size. */
+	color: #333;
+	}
+	
+div#container {
+	margin: 0 auto 0 auto;
+	padding: 4.8em 0 4.8em 0;
+	background-color: white;
+	border-top: #666 0.6em solid;
+	text-align: left;
+	width: 96em; /* 960 minus the gutters (48 on each side). */
+	}
+	h1, h2, h3, h4, h5, h6 {
+		}
+	h2 {
+		font-size: 3.2em;
+		color: #666;
+		margin-bottom: 0.5em; /* 16 */
+		margin-top: 1em; /* 32 */
+		text-transform: lowercase;
+		font-variant: small-caps;
+		letter-spacing: 0.093em;
+	}
+	h3 {
+		font-size: 2em;
+		color: #bb0000;
+		margin-top: 1em; /* 16 */
+		font-weight: normal;
+	}
+	p {
+		font-size: 1.6em;
+		padding: 0;
+		text-align: justify;
+		clear: both;
+		}
+	a {
+		border-bottom: 1px solid #999;
+		color: inherit;
+		text-decoration: none;
+		padding-bottom: 1px;
+		}
+		a:hover, a:active, a:focus {
+			color: black;
+			text-decoration: none;
+			background-color: #fbeec2;
+			}
+	abbr, acronym, .caps {
+		font-style: normal;
+        letter-spacing: 0.062em; /* 1; Calculated for the copy at 16 */
+        text-transform: lowercase;
+		font-variant: small-caps;
+		}
+	q, blockquote { font-style: italic; }
+	img {
+		margin-top: 2.4em;
+		margin-bottom: 2.4em;
+		width: 100%;
+		}
+	code, pre {
+		font-family: Monaco, "Andale Mono", "DejaVu Mono", "Courier New", monospace, sans-serif;
+		font-size: 0.875em; /* Sitting in 16 unit text, this is 14 units */
+		}
+	pre {
+		border-top: 1px solid #b6d5b4;
+		border-bottom: 1px solid #b6d5b4;
+		background-color: #eaffe4;
+		margin: 1.142em 0; /* 16 0 16 0*/
+		padding: 1.142em 0 1.142em 3.428em; /* 16 0 16 48 */
+		font-size: 1.4em;
+		}
+	ol { padding: 1em 0; }
+		ol li {
+			padding-bottom: 0.5em;
+			font-size: 1.6em;
+			list-style: lower-roman;
+			}
+		ol li pre { font-size: 0.875em; margin: 0.25em 0; /* 14 */ }
+
+
+/*	Grouped and handy elements
+
+	Just to save some space, I'm going to group some styling.
+	---------------------------------------------------------*/	
+
+	/* Content dividers */
+	div#footer {
+		padding-bottom: 2.4em;
+		padding-top: 2.4em;
+		border-top: 1px solid #999;
+		color: #666;
+		}
+	div.center	{
+		margin: 0 4.8em 0 4.8em;
+		width: 86.4em; /* 960 minus the gutters (48 on each side). */
+		}
+
+	/* Miscellaneous */
+	.floatLeft {
+		float: left;
+		display: block;
+		}
+	.floatRight {
+		float: right;
+		display: block;
+		}
+	.clear {
+		clear: both;
+		}
+	.block {
+		display: block;
+		}
+	.inline {
+		display: inline;
+		}
+	.colOne {
+		width: 6.4em;
+		}
+	.colTwo {
+		width: 14.4em;
+		}
+	.colThree {
+		width: 22.4em;
+		}
+	.colFour {
+		width: 30.4em;
+		}
+	.colFive {
+		width: 38.4em;
+		}
+	.colSix {
+		width: 46.4em;
+		}
+	.colSeven {
+		width: 54.4em;
+		}
+
+
+/*	Main elements
+	---------------------------------------------------------*/
+
+div#moin {
+	margin-bottom: 5.8em;}
+
+h1 {
+	text-align: left;
+	line-height: 1;
+	font-size: 6.4em;
+	font-weight: normal;
+	font-style: normal;
+	margin-top: 1em; /* 64f */
+	margin-bottom: 1em; /* 64 */
+	letter-spacing: 0.031em; /* 2 */
+	font-style: italic;
+	}
+	h1 a { color: #999; padding-bottom: 0.1em; border-bottom: none; }
+		h1 a:hover, h1 a:active, h1 a:focus {
+			color: #333;
+			border: none;
+			background-color: white;
+			}
+div#moin p {
+	font-size: 1.8em; /* 18 */
+	text-indent: 2.666em; /* 48 */
+	}
+	div#moin h1 + p { 
+		font-size: 2.1em; /* 18 */
+		margin-bottom: 1.777em; /* 32 */
+		text-indent: 0;
+		}
+	div#moin h1 + p:first-letter {
+		font-size: 7.111em; /* 128 */
+		padding-right: 0.125em; /* 16 */
+		float: left;
+		line-height: 0.8;
+		color: #bb0000;
+		display: inline;
+		text-indent: 0;
+		}
+		div#moin h1 + p:first-line {
+			font-variant: small-caps;
+			letter-spacing: 0.06em; /* 2 */
+			}
+dl {
+	font-size: 1.8em;
+	line-height: 1.5;
+	margin-bottom: 1.5em;
+	text-align: justify;
+	}
+dt {
+	font-style: italic;
+	color: #bb0000;
+	margin-bottom: 0.5em;
+	}
+
+div.nav {
+	position: absolute;
+	top: 3.2em;
+	width: 86.4em;
+	padding-bottom: 2.4em;
+	border-bottom: 1px solid #999;
+	}
+	div.nav span {
+		font-size: 1.8em;
+		float: left;
+		padding-right: 5.8em; /* Positions in line with text in opening para. */
+		color: #666;
+		font-style: italic;
+		}
+	div.nav ul li {
+		font-size: 1.8em;
+		float: left;
+		padding-right: 3.555em; /* 64 */
+		}
+		div.nav ul li a {
+			display: block;
+			border-bottom: none;
+			}
+			div.nav ul li a:hover {
+				background-color: white;
+				color: #ff8000;
+				}
+
+
+/*	Custom styling
+	---------------------------------------------------------*/
+	
+	span.amp {
+		font-family: Baskerville, Times, "Times New Roman", Georgia, serif;
+		font-style: italic;
+		line-height: 1;
+		}
+	p span.amp {
+		font-size: 1.125em; /* Designed for 16 body copy; 18 */
+		line-height: 0.888; /* Bumps it back down to 16 */
+	}
+	span.backtop {
+		font-size: 1.4em;
+		color: #666;
+		padding-top: 3.428em;
+		}
+	div#footer span.backtop { padding: 0; }
