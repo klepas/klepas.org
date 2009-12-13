@@ -443,6 +443,7 @@ div#container {
 					div.entry-content a:visited:hover, div.page-content a:visited:hover { color: #111; }
         div.sitesearch404 { padding: 2em 0 4em 3em; }
         .error { background-color: #fffae4; }
+        .availability { color: #bb0000; }
 
 
 	/*	Portfolio
