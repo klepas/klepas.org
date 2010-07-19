@@ -203,7 +203,7 @@ div#container {
 		letter-spacing: 0.031em; /* 0.5 */
 		word-spacing: 0.062em; /* 1 */
 		}
-	div#nav { background-color: #333; color: white; border-top: 1px solid #999; }
+	div#nav { background-color: #333; color: white; border-bottom: 1px solid #999; }
 		ul.nav-footer li { padding-bottom: 0.363em; /* 8 */ }
 		ul.nav li {
 			float: left;
