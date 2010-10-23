@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-jekyll && rsync -avz --delete _site/ klepasor@klepas.org:2683/public_html/
+# Ta goes to Micheil Smith. :3
+jekyll && rsync -avz -e "ssh -p 2683 -i ~/.ssh/klepas.org" --delete _site/ klepasor@klepas.org:public_html/
