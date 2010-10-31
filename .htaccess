@@ -1,5 +1,12 @@
 ErrorDocument 404 /404.html
 
+# compresses using deflate
+AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css
+
+<FilesMatch "\\.(js|css|html|htm|php|xml|txt|otf|eot)$">
+    SetOutputFilter DEFLATE
+</FilesMatch>
+
 # gzips content if possible
 <IfModule mod_gzip.c>
     mod_gzip_on         Yes
