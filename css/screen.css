@@ -699,3 +699,6 @@ div#portfolio { border-top: 0.8em solid #333; padding-top: 1px; }
 		code span.element { color: #4881d6; } /* light blue */
 		code span.property { color: #993300; } /* light red */
 		code span.attribute { color: #669933; } /* light green */
+    ol#about-top-ten {
+        font-size: 1.8em;
+        }
