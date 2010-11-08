@@ -12,7 +12,6 @@ ErrorDocument 404 /404.html
     FileETag None
     Header unset ETag
     Header unset P3P
-    Header set Cache-Control "public"
 </FilesMatch>
 
 # Compression using deflate
