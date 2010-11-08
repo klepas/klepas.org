@@ -1,13 +1,28 @@
 ErrorDocument 404 /404.html
 
-# compresses using deflate
+# Safe-guarding the .htaccess file
+<Files .htaccess>
+    order deny,allow
+    deny from all
+</Files>
+
+# Setting custom headers for a few files
+<FilesMatch "\.(flv|swf|mp3|ico|pdf|flv|jpg|jpeg|png|gif|js|css|ttf|eot|svg)$">
+    Header unset Pragma
+    FileETag None
+    Header unset ETag
+    Header unset P3P
+    Header set Cache-Control "public"
+</FilesMatch>
+
+# Compression using deflate
 AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css
 
 <FilesMatch "\\.(js|css|html|htm|php|xml|txt|otf|eot)$">
     SetOutputFilter DEFLATE
 </FilesMatch>
 
-# gzips content if possible
+# Gzips content if possible
 <IfModule mod_gzip.c>
     mod_gzip_on         Yes
     mod_gzip_dechunk    Yes
@@ -36,5 +51,3 @@ RewriteEngine On
 RewriteCond %{HTTP_REFERER} !^$
 RewriteCond %{HTTP_REFERER} !^http://(www\.)?klepas.org/.*$ [NC]
 RewriteRule \.(otf|eot)$ - [F,NC,L]
-
-# Btw, this whole thing is a whole load harder than it ought to fucking be. :(
