@@ -7,6 +7,9 @@ Besides the cost or more specifically the [opportunity cost](https://secure.wiki
 
 <p class="note">This might read as a scathing assessment, but it is really more a personal reality check after having fantasized about the iPad so much recently.</p>
 
+<img src="/files/images/ipad-apple-range.jpg" alt="Photo of a cut of the Apple device range." title="A cut of the Apple device range" width="624" height="194" />
+<p class="caption">The iPad and a cut of its brothers and sisters from the Apple range. <a href="http://www.flickr.com/photos/mehradhm/4629522187/" title="Flickr.com: My Collection">Photo</a> by Mehrad.HM, licensed <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/"><acronym title="Creative Commons Attribution NonCommercial ShareAlike 2.0 Generic">CC-NC-SA 2.0</acronym></a>.</p>
+
 To me the iPad sits between a smartphone and a laptop. Both are established devices catering for a fairly developed (and changing) list of tasks and use cases. Let's take a look:
 * the iPad definitely does some things better than a smartphone, but;
 * it's bigger (doesn't fit into your jeans pocket), and vitally, doesn't do telephony;
