@@ -2,7 +2,7 @@
 layout: post
 title: Tango to go public domain?
 ---
-In the previous post I hinted that the <a href="http://tango.freedesktop.org" title="Tango Desktop Project homepage">Tango Desktop Project</a> icon set would be re-licensed into the public domain. The news came through at the start of <acronym title="GNOME Users&rsquo; and developers&rsquo; Europe conference">GUADEC</acronym> 2008 over the <a href="http://lists.freedesktop.org/mailman/listinfo/tango-artists" title="Tango Artists mailing list info page on freedesktop.org">tango-artists</a> mailing list. This somewhat lengthy article should set straight what Tango is, what it's goals are, some of the hiccups that we've encountered along the way and the imminent future of a possible re-licensing into the public domain.
+In the previous post I hinted that the <a href="http://tango.freedesktop.org" title="Tango Desktop Project homepage">Tango Desktop Project</a> icon set would be re-licensed into the public domain. The news came through at the start of <acronym title="GNOME Users&rsquo; and developers&rsquo; Europe conference">GUADEC</acronym> 2008 over the <a href="http://lists.freedesktop.org/mailman/listinfo/tango-artists" title="Tango Artists mailing list info page on freedesktop.org">tango-artists</a> mailing list. This somewhat lengthy article should set straight what Tango is, what its goals are, some of the hiccups that we've encountered along the way and the imminent future of a possible re-licensing into the public domain.
 
 <img src="/files/images/tango-example-16x.png" alt="Example of the Tango icon set 16&times;16 versions" title="Example of the Tango icon set 16&times;16 versions" width="624" height="310" />
 
