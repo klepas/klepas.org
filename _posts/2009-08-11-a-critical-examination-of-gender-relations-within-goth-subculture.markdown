@@ -4,7 +4,7 @@ title: A critical examination of gender relations within goth subculture
 ---
 <style>
         @font-face {
-            font-family: "Coelnische Fraktur";
+            font-family: "Coelnische Fraktur W";
             src: url(/fonts/CoelnischeFraktur_W.otf) format("opentype");
             }
         p.prelude {
@@ -24,7 +24,7 @@ title: A critical examination of gender relations within goth subculture
 				color: black;
 				text-align: right;
 				float: right;
-				font-family: "Coelnische Fraktur", Georgia, "DejaVu Serif", Times, "Times New Roman", serif;
+				font-family: "Coelnische Fraktur W", Georgia, "DejaVu Serif", Times, "Times New Roman", serif;
 				font-style: normal;
 				}
 			p.prelude:first-line {
