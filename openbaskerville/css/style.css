@@ -28,6 +28,13 @@
 	average around 70 characters per line for the body copy.
 	---------------------------------------------------------*/
 
+@font-face {
+    font-family: 'Museo Sans 500 Regular';
+    src: url(/fonts/MuseoSans-500.eot);
+    src: local('MuseoSans-500'), local('Museo Sans 500'),
+         url(/fonts/MuseoSans-500.otf) format('opentype');
+    }
+
 body {
 	background: #ebebeb url(../img/bg.png) repeat;
 	text-align: center; /* For IE centering. */
@@ -182,7 +189,7 @@ h1 {
 	font-size: 6.4em;
 	font-weight: normal;
 	font-style: normal;
-	margin-top: 1em; /* 64f */
+	margin-top: 3em; /* 64f */
 	margin-bottom: 1em; /* 64 */
 	letter-spacing: 0.031em; /* 2 */
 	font-style: italic;
@@ -234,13 +241,34 @@ div.nav {
 	padding-bottom: 2.4em;
 	border-bottom: 1px solid #999;
 	}
-	div.nav span {
+	div.nav span.skip-to {
 		font-size: 1.8em;
 		float: left;
 		padding-right: 5.8em; /* Positions in line with text in opening para. */
 		color: #666;
 		font-style: italic;
 		}
+    div.nav span.to-root {
+		float: left;
+		color: #666;
+        font-size: 1.4em;
+        padding-bottom: 2em;
+        font-family: "Museo Sans 500 Regular", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif;
+        }
+		div.nav span.to-root a span.middot { color: #666; }
+        div.nav span.to-root a {
+            font-size: 1.125em;
+            color: #bb0000;
+            font-weight: bold;
+            font-style: italic;
+            font-family: Georgia, "DejaVu Serif", Times, "Times New Roman", serif;
+            }
+            div.nav span.to-root a:hover span.hoverline { border-bottom: 1px solid #999; }
+			div.nav span.to-root a:hover, div.nav span.to-root a:active, div.nav span.to-root a:focus {
+				color: #333;
+				border: none;
+				background-color: white;
+				}
 	div.nav ul li {
 		font-size: 1.8em;
 		float: left;

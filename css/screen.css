@@ -32,7 +32,7 @@ html { overflow-y: scroll; } /* Fixes Firefox scrollbar jump */
 
 @font-face {
     font-family: 'Museo Sans 500 Regular';
-    src: url(fonts/MuseoSans-500.eot);
+    src: url(/fonts/MuseoSans-500.eot);
     src: local('MuseoSans-500'), local('Museo Sans 500'),
          url(/fonts/MuseoSans-500.otf) format('opentype');
     }
