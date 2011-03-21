@@ -189,7 +189,7 @@ h1 {
 	font-size: 6.4em;
 	font-weight: normal;
 	font-style: normal;
-	margin-top: 3em; /* 64f */
+	margin-top: 2.4em; /* 64f */
 	margin-bottom: 1em; /* 64 */
 	letter-spacing: 0.031em; /* 2 */
 	font-style: italic;
@@ -255,6 +255,7 @@ div.nav {
         padding-bottom: 2em;
         font-family: "Museo Sans 500 Regular", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif;
         }
+        div.nav span.to-root a { border-bottom: none; }
 		div.nav span.to-root a span.middot { color: #666; }
         div.nav span.to-root a {
             font-size: 1.125em;
@@ -282,6 +283,10 @@ div.nav {
 				background-color: white;
 				color: #ff8000;
 				}
+    div#download { margin: 4.8em 4.8em 10.4em 4.8em; }
+        div#download a.btn { display: block; }
+        div#download a.zipball { float: left; }
+        div#download a.sourceball { float: right; }
 
 
 /*	Custom styling
@@ -302,3 +307,99 @@ div.nav {
 		padding-top: 3.428em;
 		}
 	div#footer span.backtop { padding: 0; }
+                
+    .btn {		
+	display: inline-block;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-transition: -webkit-box-shadow .2s ease-in-out;
+	-moz-transition: -moz-box-shadow .2s ease-in-out;
+	-o-transition: -o-box-shadow .2s ease-in-out;
+	transition: box-shadow .2s ease-in-out;
+	}
+	
+    .btn span {	
+	   display: inline-block;
+	   padding: 0.375em 0.714em;
+	   font-size: 2.8em;
+	   font-family: "Museo Sans 500 Regular", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif;
+	   color: white;
+	   letter-spacing: 0.041em;
+	   line-height: 1.4em;
+	   text-shadow: 0 -1px 1px rgba(19,65,88,.8);
+	   -webkit-border-radius: 0.285em;
+	   -moz-border-radius: 0.285em;
+	   border-radius: 0.285em;
+	   -webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,.15);
+	   -moz-box-shadow: inset 0 -1px 1px rgba(255,255,255,.15);
+	   box-shadow: inset 0 -1px 1px rgba(255,255,255,.15);
+	   -webkit-transition: -webkit-transform .2s ease-in-out;
+	   -moz-transition: -moz-transform .2s ease-in-out;
+	   -o-transition: -o-transform .2s ease-in-out;
+	   transition: transform .2s ease-in-out;
+	   }
+	   .zipball {
+	   	-webkit-box-shadow:
+		0 8px 0 #1a74a1,
+		0 15px 20px rgba(0,0,0,.35);
+	-moz-box-shadow:
+		0 8px 0 #1a74a1,
+		0 15px 20px rgba(0,0,0,.35);
+	box-shadow:
+		0 8px 0 #1a74a1,
+		0 15px 20px rgba(0,0,0,.35);
+	       }
+	   .sourceball {
+	   	-webkit-box-shadow:
+            0 8px 0 #CC6600,
+            0 15px 20px rgba(0,0,0,.35);
+        -moz-box-shadow:
+            0 8px 0 #CC6600,
+            0 15px 20px rgba(0,0,0,.35);
+        box-shadow:
+            0 8px 0 #CC6600,
+            0 15px 20px rgba(0,0,0,.35);}
+	   .zipball span {
+	   	   background: #3194c6;
+	       background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3194c6), to(#5bacd6));
+	       background: -moz-linear-gradient(#3194c6, #5bacd6);
+	       }
+	   .sourceball span {
+	   	   background: #FF8000;
+	       background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FF8000), to(#FF9D52));
+	       background: -moz-linear-gradient(#FF8000, #FF9D52);
+	       }
+    a.zipball:active {	
+        -webkit-box-shadow: 
+            0 0.285em 0 #1a74a1,
+            0 0.428em  0.357em rgba(0,0,0,.3);
+        -moz-box-shadow: 
+            0 0.285em 0 #1a74a1,
+            0 0.428em 0.357em rgba(0,0,0,.3);
+        box-shadow: 
+            0 0.285em 0 #1a74a1,
+            0 0.428em  0.357em rgba(0,0,0,.3);
+        }
+    a.sourceball:active {
+        -webkit-box-shadow: 
+            0 0.285em 0 #CC6600,
+            0 0.428em  0.357em rgba(0,0,0,.3);
+        -moz-box-shadow: 
+            0 0.285em 0 #CC6600,
+            0 0.428em 0.357em rgba(0,0,0,.3);
+        box-shadow: 
+            0 0.285em 0 #CC6600,
+            0 0.428em  0.357em rgba(0,0,0,.3);
+        }
+        .btn:active span {	
+            -webkit-transform: translate(0, 0.142em);
+            -moz-transform: translate(0, 0.142em);
+            -o-transform: translate(0, 0.142em);
+            transform: translate(0, 0.142em);
+            }
+
+    span.or-delimiter {
+        font-size: 3.8em;
+        padding-left: 1.3em;
+        }
