@@ -95,7 +95,7 @@ Of course, both are interrelated; changes to the point size will impact the legi
 
 <h4 id="typographic-hierarchy">Highlight relationships and provide navigation</h4>
 
-Just like WCAG's (<a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms" title="w3.org: WCAG 2.0, &sect; 2.4 Navigation Mechanisms">WCAG 2.0, &sect; 2.4</a>) accessibility guidelines on ensuring that hyperlinks can be understood out of context, typographic hierarchy gives the text a certain "skimmability". Good typographic hierarchy allows the text as a whole to be navigated with ease, such that readers can find their places again, or skip superfluous introductory information and get straight to what they are browsing for.
+Just like <acronym title="Web Content Accessibility Guidelines">WCAG</acronym>'s (<a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms" title="w3.org: WCAG 2.0, &sect; 2.4 Navigation Mechanisms"><acronym title="Web Content Accessibility Guidelines">WCAG</acronym> 2.0, &sect; 2.4</a>) accessibility guidelines on ensuring that hyperlinks can be understood out of context, typographic hierarchy gives the text a certain "skimmability". Good typographic hierarchy allows the text as a whole to be navigated with ease, such that readers can find their places again, or skip superfluous introductory information and get straight to what they are browsing for.
 
 A good typographic hierarchy will provide visual cues to readers: headings are sized and styled in a way that makes them immediately identifiable as headings; paragraphs are uniform in styling, and their beginnings and ends are well marked out; quotations are recognizable, separate from the paragraphs they are enclosed by, and so forth.
 
@@ -211,7 +211,7 @@ For example, if the parent font size (as defined by say the body element) is 16 
 
 ##### The 62.5% trick
 
-There is a neat trick to simplifying these calculations. Consider the following CSS:
+There is a neat trick to simplifying these calculations. Consider the following <acronym title="Cascading Style Sheets">CSS</acronym>:
 
 <pre><code><span class="element">p</span> { <span class="property">font-size:</span> <span class="attribute">80%</span>; }
 <span class="element">blockquote</span> { <span class="property">font-size:</span> <span class="attribute">80%</span>; }</code></pre>
