@@ -76,4 +76,4 @@ That's my list. What's yours?
 
 <span id="df-logo" class="calloutRight"><img src="/files/images/design-festival-logo-motif.png" alt="An image of the DesignFestival.com logo" title="The DesignFestival.com logo" width="39" height="39" /></span>
 
-<p class="note">This article was originally written by me for, and published on DesignFestival.com&thinsp;&mdash;&thinsp;<em><a href="http://designfestival.com/top-10-dos-and-donts-of-web-typography" title="DesignFestival.com: Top 10 dos and don&rsquo;ts of Web Typography ">Top 10 dos and don&rsquo;ts of Web Typography </a></em>. It has been been republished here with permission.</p>
+<p class="note">This article was originally written by me for, and published on DesignFestival.com&thinsp;&mdash;&thinsp;<em><a href="http://designfestival.com/top-10-dos-and-donts-of-web-typography" title="DesignFestival.com: Top 10 dos and don&rsquo;ts of Web Typography">Top 10 dos and don&rsquo;ts of Web Typography</a></em>. It has been been republished here with permission.</p>
