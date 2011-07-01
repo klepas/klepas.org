@@ -42,8 +42,8 @@ For example, a transitional serif font stack:
 <pre><code><span class="element">p</span> {
     <span class="property">font-family:</span>
         <span class="attribute">Baskerville,
-        Times
-        'Times New Roman'
+        Times,
+        'Times New Roman',
         serif</span>;
     }</code></pre>
 
@@ -52,9 +52,9 @@ And a neo-grotesque stack:
 <pre><code><span class="element">h1, h2, h3, h4, h5, h6, h7</span> {
     <span class="property">font-family:</span>
         <span class="attribute">Univers,
-        Helvetica
-        'Helvetica Neue'
-        Arial
+        Helvetica,
+        'Helvetica Neue',
+        Arial,
         sans-serif</span>;
     }</code></pre>
 
