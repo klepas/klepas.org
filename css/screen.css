@@ -46,6 +46,7 @@ html { overflow-y: scroll; } /* Fixes Firefox scrollbar jump */
     
 body {
 	background: #ebebeb url(/images/bg.png) repeat;
+	background-attachment: fixed;
 	text-align: center; /* For IE centering. */
 	font-family: Georgia, "DejaVu Serif", Times, "Times New Roman", serif;
 	font-size: 62.5%; /* Resets UA 16px common default such that 1em = 10px. Kudos to Richard Rutter. */
