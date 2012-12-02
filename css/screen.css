@@ -58,13 +58,13 @@ div#container {
 	margin: 0 auto 0 auto;
 	padding: 4.8em 0 4.8em 0;
 	background-color: white;
-	border-top: #666 0.8em solid;
+	border-top: #222 0.8em solid;
 	text-align: left;
 	width: 96em; /* 960 minus the gutters (48 on each side). */
 	/* Box shadowing that provides a nice page shadow; experimental shiny stuff. */
-	box-shadow: 0 0 4em #ccc;
-	-webkit-box-shadow: 0 0 4em #ccc;
-	-moz-box-shadow: 0 0 4em #ccc;
+	box-shadow: 0 0 4em #222;
+	-webkit-box-shadow: 0 0 4em #222;
+	-moz-box-shadow: 0 0 4em #222;
 	}
 	h3, h4, h5, h6 { font-family: "Museo Sans 500 Regular", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif; }
 	h2 { font-size: 3.2em; color: #666; margin-bottom: 0.5em; /* 16 */ }
@@ -205,7 +205,11 @@ div#container {
 		letter-spacing: 0.031em; /* 0.5 */
 		word-spacing: 0.062em; /* 1 */
 		}
-	div#nav { background-color: #333; color: white; border-bottom: 1px solid #999; }
+	div#nav {
+		background-color: #222;
+		color: white;
+		border-bottom: 1px solid #999;
+		}
 		ul.nav-footer li { padding-bottom: 0.363em; /* 8 */ }
 		ul.nav li {
 			float: left;
@@ -217,18 +221,18 @@ div#container {
 			ul.nav-header li a {
 				display: block;
 				color: #999;
-				text-shadow: 1px 1px 1px #222;
+				text-shadow: 1px 1px 1px black;
 				}
 			ul.nav-footer li a {
 				}
 				ul.nav li a:hover { border: none; }
 				ul.nav-footer li a:hover {
 					background-color: white;
-					color: #333;
+					color: #555;
 					}
 				ul.nav-header li a:hover {
 					color: #ff8000;
-					background-color: #333;
+					background-color: #222;
 					}
 			ul.nav li span.amp { font-size: 0.954em; /* 21 */ }
 	input {
@@ -245,6 +249,7 @@ div#container {
 	div#cover {
 		padding-top: 3.2em;
 		padding-bottom: 4.8em;
+		background: #ebebeb url(/images/cover-bg.png) repeat;
 		background-color: #e8dcb1;
 		border-bottom: 1px solid #c4ba92;
 		border-top: 1px solid #c4ba92;
