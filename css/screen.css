@@ -62,9 +62,9 @@ div#container {
 	text-align: left;
 	width: 96em; /* 960 minus the gutters (48 on each side). */
 	/* Box shadowing that provides a nice page shadow; experimental shiny stuff. */
-	box-shadow: 0 0 4em #222;
-	-webkit-box-shadow: 0 0 4em #222;
-	-moz-box-shadow: 0 0 4em #222;
+	box-shadow: 0 0 4em #777;
+	-webkit-box-shadow: 0 0 4em #777;
+	-moz-box-shadow: 0 0 4em #777;
 	}
 	h3, h4, h5, h6 { font-family: "Museo Sans 500 Regular", "Lucida Grande", Verdana, "DejaVu Sans", sans-serif; }
 	h2 { font-size: 3.2em; color: #666; margin-bottom: 0.5em; /* 16 */ }
