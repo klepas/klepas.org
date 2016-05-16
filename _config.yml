@@ -1,3 +1,11 @@
 ---
 pygments: true
 permalink: /:title
+
+exclude:
+  - vendor/
+  - README.md
+  - Rakefile
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
