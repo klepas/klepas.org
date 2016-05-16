@@ -31,5 +31,5 @@ I take Eric Meyer's position on this whereby we should use the tools that suit u
 Thus:
 
 1. Use what suits you best, even it's just the age old
-<code><span class="element">*</span> { <span class="property">margin:</span> <span class="attribute">0</span>; <span class="property">padding:</span> <span class="attribute">0</span>; }</code>
+<code>* { margin: 0; padding: 0; }</code>
 2. If you use a reset style sheet make sure you know what you're resetting and why.

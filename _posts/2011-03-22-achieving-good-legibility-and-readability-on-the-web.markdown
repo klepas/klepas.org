@@ -2,71 +2,68 @@
 layout: post
 title: Achieving good legibility and readability on the Web
 published: yes
+style: |
+  @font-face {
+      font-family: "Coelnische Fraktur M";
+      src: url(/fonts/CoelnischeFraktur_M.otf) format("opentype");
+      }
+  p.prelude {
+  	font-size: 1.8em; /* 18 */
+  	float: right;
+    text-indent: 0 !important;
+    display: block;
+    }
+    p.prelude:first-letter {
+      margin-left: -1.071em; /* We have 120 of space */
+      margin-right: 100%;
+      margin-bottom: -0.894em;
+      font-size: 6.222em; /* 112 */
+      padding-right: 0.071em; /* 8 */
+      line-height: 0.9; /* Aligns to cap-height of para. */
+      color: #BB0000;
+      text-align: right;
+      float: right;
+      font-family: "Coelnische Fraktur M", Georgia, "DejaVu Serif", Times, "Times New Roman", serif;
+      font-style: normal;
+      }
+      p.prelude:first-line {
+      	font-variant: small-caps;
+      	letter-spacing: 0.06em; /* 2 */
+      	text-indent: 0;
+      	}
+  span.scale { color: #BB0000; padding-left: 2.4em; }
+    span.scale-six { font-size: 0.6em; }
+    span.scale-seven { font-size 0.7em; }
+    span.scale-eight { font-size: 0.8em; }
+    span.scale-nine { font-size: 0.9em; }
+    span.scale-ten { font-size: 1em; }
+    span.scale-eleven { font-size 1.1em; }
+    span.scale-twelve { font-size: 1.2em; }
+    span.scale-thirteen { font-size: 1.3em; }
+    span.scale-fourteen { font-size: 1.4em; }
+    span.scale-sixteen { font-size: 1.6em; }
+    span.scale-eighteen { font-size: 1.8em; }
+    span.scale-twenty-one { font-size: 2.1em; }
+    span.scale-twenty-four { font-size: 2.4em; }
+    span.scale-thirty-four { font-size: 3.4em; }
+    span.scale-thirty-six { font-size: 3.6em; }
+    span.scale-forty-eight { font-size: 4.8em; }
+    span.scale-fifty-five { font-size: 5.5em; }
+    span.scale-sixty { font-size: 6em; }
+    span.scale-sixty-four { font-size: 6.4em; }
+    span.scale-seventy-two { font-size: 7.2em; }
+    span.scale-eighty-nine { font-size: 8.9em; }
+  span.equation {
+    color: #555;
+    font-size: 1.8em;
+    font-family: Monaco, "Andale Mono", "Courier New", Courier, monospace;
+    display: block;
+    text-align: center;
+    padding: 0.888em;
+    }
+    span.value { color: #111; }
+    span.result { color: #4881D6; }
 ---
-<style>
-        @font-face {
-            font-family: "Coelnische Fraktur M";
-            src: url(/fonts/CoelnischeFraktur_M.otf) format("opentype");
-            }
-        p.prelude {
-			font-size: 1.8em; /* 18 */
-			float: right;
-			text-indent: 0 !important;
-			display: block;
-			}
-            p.prelude:first-letter {
-				margin-left: -1.071em; /* We have 120 of space */
-				margin-right: 100%;
-				margin-bottom: -0.894em;
-				font-size: 6.222em; /* 112 */
-				padding-right: 0.071em; /* 8 */
-				line-height: 0.9; /* Aligns to cap-height of para. */
-				color: #BB0000;
-				text-align: right;
-				float: right;
-				font-family: "Coelnische Fraktur M", Georgia, "DejaVu Serif", Times, "Times New Roman", serif;
-				font-style: normal;
-				}
-			p.prelude:first-line {
-				font-variant: small-caps;
-				letter-spacing: 0.06em; /* 2 */
-				text-indent: 0;
-				}
-
-    span.scale { color: #BB0000; padding-left: 2.4em; }
-        span.scale-six { font-size: 0.6em; }
-        span.scale-seven { font-size 0.7em; }
-        span.scale-eight { font-size: 0.8em; }
-        span.scale-nine { font-size: 0.9em; }
-        span.scale-ten { font-size: 1em; }
-        span.scale-eleven { font-size 1.1em; }
-        span.scale-twelve { font-size: 1.2em; }
-        span.scale-thirteen { font-size: 1.3em; }
-        span.scale-fourteen { font-size: 1.4em; }
-        span.scale-sixteen { font-size: 1.6em; }
-        span.scale-eighteen { font-size: 1.8em; }
-        span.scale-twenty-one { font-size: 2.1em; }
-        span.scale-twenty-four { font-size: 2.4em; }
-        span.scale-thirty-four { font-size: 3.4em; }
-        span.scale-thirty-six { font-size: 3.6em; }
-        span.scale-forty-eight { font-size: 4.8em; }
-        span.scale-fifty-five { font-size: 5.5em; }
-        span.scale-sixty { font-size: 6em; }
-        span.scale-sixty-four { font-size: 6.4em; }
-        span.scale-seventy-two { font-size: 7.2em; }
-        span.scale-eighty-nine { font-size: 8.9em; }
-    
-    span.equation {&thinsp;&mdash;&thinsp;
-        color: #555;
-        font-size: 1.8em;
-        font-family: Monaco, "Andale Mono", "Courier New", Courier, monospace;
-        display: block;
-        text-align: center;
-        padding: 0.888em;
-        }
-        span.value { color: #111; }
-        span.result { color: #4881D6; }
-</style>
 
 <p class="prelude">My last piece on web typography provided an exhaustive look at <em><a href="/getting-type-to-the-web/#notebook" title="klepas.org: Getting type to the Web">getting type to the Web</a></em>, covering the ins and outs of the <code><span class="element">@font-face</span></code> technology. Now that we can get the fonts we want rendered on the Web, let&rsquo;s examine legibility and readability more closely by covering the elementary typographic factors that affect them.</p>
 
